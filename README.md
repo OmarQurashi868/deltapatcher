@@ -19,20 +19,39 @@ standalone patcher `.exe` that an average user can just double-click.
   Otherwise it applies all changes with backup-before-overwrite, and
   automatically rolls back if anything fails partway through.
 
-## Requirements
+## Installing
+
+Requires Python 3.10+ and a C compiler (needed to build the `bsdiff4`
+dependency; on Windows this means having the Visual Studio Build Tools
+installed, which most dev machines already have).
 
 ```
+git clone https://github.com/OmarQurashi868/deltapatcher.git
+cd deltapatcher
 pip install -r requirements.txt
 ```
 
-## Usage
+## Running the Creator
 
 ```
 python run_creator.py
 ```
 
-Pick a source directory, a target directory, and where to save the
-resulting patcher exe, then click "Create Patch".
+This opens the Creator window. Fill in:
+- **Source directory** — the folder you want to update FROM
+- **Target directory** — the folder you want to update TO
+- **Patch location** — where to save the resulting patcher exe
+
+Click "Create Patch". It'll take a little while (it invokes PyInstaller
+under the hood), then you'll have a standalone exe at the location you
+chose — hand that to whoever needs to apply the update; they just
+double-click it and pick the folder to patch.
+
+## Running the tests
+
+```
+python -m unittest discover tests
+```
 
 ## Scope
 
