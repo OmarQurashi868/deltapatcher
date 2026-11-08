@@ -19,9 +19,7 @@ import stat
 import zipfile
 from pathlib import Path
 
-import bsdiff4
-
-from . import patch_format, scan
+from . import patch_format, scan, xdelta
 
 MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024  # 2 GB limit for in-memory bsdiff ops
 CHUNK_SIZE = patch_format.CHUNK_SIZE  # Must match patch_format
@@ -150,7 +148,7 @@ def _apply_chunked_patch(
                 break
 
             diff_bytes = patch_format.read_chunk_diff_blob(zf, rel, chunk_idx)
-            tgt_chunk = bsdiff4.patch(src_chunk, diff_bytes)
+            tgt_chunk = xdelta.patch(src_chunk, diff_bytes)
             dst_f.write(tgt_chunk)
 
             log.debug("Applied chunk %d/%d: %d -> %d bytes", chunk_idx + 1, num_chunks, len(src_chunk), len(tgt_chunk))
@@ -230,7 +228,7 @@ def apply_patch(
                             f"({src_size:,} bytes, max {MAX_FILE_SIZE:,})"
                         )
                     src_bytes = backup_path.read_bytes()
-                    new_bytes = bsdiff4.patch(src_bytes, diff_bytes)
+                    new_bytes = xdelta.patch(src_bytes, diff_bytes)
                     disk_path.write_bytes(new_bytes)
 
                 elif action == "modify_chunked":

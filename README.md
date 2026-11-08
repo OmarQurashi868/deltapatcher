@@ -7,7 +7,7 @@ standalone patcher `.exe` that an average user can just double-click.
 
 - **Creator** (`run_creator.py`) — a small GUI with three fields:
   Source directory, Target directory, and Patch location. It diffs the two
-  directories file-by-file (SHA-256 identity, bsdiff4 binary diffs for
+  directories file-by-file (SHA-256 identity, xdelta3 binary diffs for
   changed files) and builds a self-contained patcher exe at the chosen
   location. Building invokes PyInstaller, so it takes a bit longer than a
   simple diff would.
@@ -21,9 +21,7 @@ standalone patcher `.exe` that an average user can just double-click.
 
 ## Installing
 
-Requires Python 3.10+ and a C compiler (needed to build the `bsdiff4`
-dependency; on Windows this means having the Visual Studio Build Tools
-installed, which most dev machines already have).
+Requires Python 3.10+. No C compiler needed (uses bundled xdelta3 binaries).
 
 ```
 git clone https://github.com/OmarQurashi868/deltapatcher.git

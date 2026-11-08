@@ -1,0 +1,1166 @@
+2026-11-08 08:57:57,942 INFO deltapatcher.creator.creator_gui: Starting patch build: source=C:\Games\Lethal Company old target=C:\Games\Lethal Company output=C:\Games\lc-patch.exe
+2026-11-08 08:57:57,942 INFO deltapatcher.creator.build_applier: Building patch zip from C:\Games\Lethal Company old -> C:\Games\Lethal Company
+2026-11-08 08:57:57,942 INFO deltapatcher.core.patch_format: Scanning source directory: C:\Games\Lethal Company old
+2026-11-08 08:57:59,563 INFO deltapatcher.core.patch_format: Scanned 454 files from source
+2026-11-08 08:57:59,563 INFO deltapatcher.core.patch_format: Scanning target directory: C:\Games\Lethal Company
+2026-11-08 08:58:01,531 INFO deltapatcher.core.patch_format: Scanned 477 files from target
+2026-11-08 08:58:01,531 INFO deltapatcher.core.patch_format: Total unique paths to process: 477
+2026-11-08 08:58:01,544 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company.exe (666624 -> 666624 bytes)
+2026-11-08 08:58:01,545 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company.exe
+2026-11-08 08:58:01,782 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company.exe: 43190 bytes
+2026-11-08 08:58:01,785 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll (392192 -> 392192 bytes)
+2026-11-08 08:58:01,785 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll
+2026-11-08 08:58:01,824 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll: 209 bytes
+2026-11-08 08:58:01,824 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Assembly-CSharp.dll (1816576 -> 1990144 bytes)
+2026-11-08 08:58:01,826 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Assembly-CSharp.dll
+2026-11-08 08:58:02,478 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Assembly-CSharp.dll: 481035 bytes
+2026-11-08 08:58:02,491 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/ClientNetworkTransform.dll (6144 -> 6144 bytes)
+2026-11-08 08:58:02,492 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/ClientNetworkTransform.dll
+2026-11-08 08:58:02,492 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/ClientNetworkTransform.dll: 459 bytes
+2026-11-08 08:58:02,493 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/DissonanceVoip.dll (297472 -> 297472 bytes)
+2026-11-08 08:58:02,493 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/DissonanceVoip.dll
+2026-11-08 08:58:02,521 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/DissonanceVoip.dll: 405 bytes
+2026-11-08 08:58:02,522 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.Integration.ASPP.dll (4096 bytes)
+2026-11-08 08:58:02,523 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.Integration.UnityNav.dll (21504 bytes)
+2026-11-08 08:58:02,524 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.dll (191488 bytes)
+2026-11-08 08:58:02,528 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/EasyTextEffects.dll (52736 bytes)
+2026-11-08 08:58:02,529 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll (14336 -> 14336 bytes)
+2026-11-08 08:58:02,530 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll
+2026-11-08 08:58:02,532 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll: 381 bytes
+2026-11-08 08:58:02,533 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Mono.Security.dll (241152 -> 241152 bytes)
+2026-11-08 08:58:02,533 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Mono.Security.dll
+2026-11-08 08:58:02,556 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Mono.Security.dll: 483 bytes
+2026-11-08 08:58:02,557 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.ComponentModel.Composition.dll (257024 -> 257024 bytes)
+2026-11-08 08:58:02,558 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.ComponentModel.Composition.dll
+2026-11-08 08:58:02,581 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.ComponentModel.Composition.dll: 204 bytes
+2026-11-08 08:58:02,582 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Configuration.dll (124928 -> 124928 bytes)
+2026-11-08 08:58:02,583 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Configuration.dll
+2026-11-08 08:58:02,593 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Configuration.dll: 198 bytes
+2026-11-08 08:58:02,594 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Core.dll (1113088 -> 1113088 bytes)
+2026-11-08 08:58:02,595 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Core.dll
+2026-11-08 08:58:02,726 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Core.dll: 203 bytes
+2026-11-08 08:58:02,727 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll (29696 -> 29696 bytes)
+2026-11-08 08:58:02,728 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll
+2026-11-08 08:58:02,730 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll: 189 bytes
+2026-11-08 08:58:02,731 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Data.dll (2118656 -> 2125312 bytes)
+2026-11-08 08:58:02,732 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Data.dll
+2026-11-08 08:58:03,319 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Data.dll: 388398 bytes
+2026-11-08 08:58:03,331 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Drawing.dll (489984 -> 489984 bytes)
+2026-11-08 08:58:03,332 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Drawing.dll
+2026-11-08 08:58:03,392 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Drawing.dll: 200 bytes
+2026-11-08 08:58:03,392 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.EnterpriseServices.dll (44544 -> 44544 bytes)
+2026-11-08 08:58:03,393 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.EnterpriseServices.dll
+2026-11-08 08:58:03,398 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.EnterpriseServices.dll: 197 bytes
+2026-11-08 08:58:03,398 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll (18432 -> 18432 bytes)
+2026-11-08 08:58:03,399 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll
+2026-11-08 08:58:03,400 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll: 196 bytes
+2026-11-08 08:58:03,401 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.IO.Compression.dll (114688 -> 114688 bytes)
+2026-11-08 08:58:03,401 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.IO.Compression.dll
+2026-11-08 08:58:03,413 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.IO.Compression.dll: 198 bytes
+2026-11-08 08:58:03,414 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Net.Http.dll (121344 -> 122880 bytes)
+2026-11-08 08:58:03,414 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Net.Http.dll
+2026-11-08 08:58:03,440 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Net.Http.dll: 25989 bytes
+2026-11-08 08:58:03,441 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Numerics.dll (119296 -> 119296 bytes)
+2026-11-08 08:58:03,442 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Numerics.dll
+2026-11-08 08:58:03,454 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Numerics.dll: 194 bytes
+2026-11-08 08:58:03,455 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Runtime.Serialization.dll (934400 -> 934400 bytes)
+2026-11-08 08:58:03,457 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Runtime.Serialization.dll
+2026-11-08 08:58:03,601 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Runtime.Serialization.dll: 206 bytes
+2026-11-08 08:58:03,602 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Security.dll (320000 -> 320000 bytes)
+2026-11-08 08:58:03,602 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Security.dll
+2026-11-08 08:58:03,636 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Security.dll: 202 bytes
+2026-11-08 08:58:03,637 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.ServiceModel.Internals.dll (215040 -> 215040 bytes)
+2026-11-08 08:58:03,638 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.ServiceModel.Internals.dll
+2026-11-08 08:58:03,662 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.ServiceModel.Internals.dll: 459 bytes
+2026-11-08 08:58:03,662 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Transactions.dll (35328 -> 35328 bytes)
+2026-11-08 08:58:03,663 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Transactions.dll
+2026-11-08 08:58:03,666 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Transactions.dll: 196 bytes
+2026-11-08 08:58:03,666 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Xml.Linq.dll (136704 -> 136704 bytes)
+2026-11-08 08:58:03,667 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Xml.Linq.dll
+2026-11-08 08:58:03,680 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Xml.Linq.dll: 201 bytes
+2026-11-08 08:58:03,681 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Xml.dll (3160064 -> 3160064 bytes)
+2026-11-08 08:58:03,684 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Xml.dll
+2026-11-08 08:58:04,194 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Xml.dll: 206 bytes
+2026-11-08 08:58:04,194 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.dll (2637824 -> 2639872 bytes)
+2026-11-08 08:58:04,197 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.dll
+2026-11-08 08:58:04,996 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.dll: 386288 bytes
+2026-11-08 08:58:05,007 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.AI.Navigation.dll (20480 -> 19968 bytes)
+2026-11-08 08:58:05,008 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.AI.Navigation.dll
+2026-11-08 08:58:05,011 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.AI.Navigation.dll: 1348 bytes
+2026-11-08 08:58:05,011 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll (6144 -> 6144 bytes)
+2026-11-08 08:58:05,012 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll
+2026-11-08 08:58:05,013 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll: 248 bytes
+2026-11-08 08:58:05,014 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Animation.Rigging.dll (113152 -> 113152 bytes)
+2026-11-08 08:58:05,014 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Animation.Rigging.dll
+2026-11-08 08:58:05,024 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Animation.Rigging.dll: 266 bytes
+2026-11-08 08:58:05,025 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Burst.dll (316928 -> 317440 bytes)
+2026-11-08 08:58:05,025 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Burst.dll
+2026-11-08 08:58:05,093 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Burst.dll: 9782 bytes
+2026-11-08 08:58:05,094 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Collections.dll (389632 -> 389632 bytes)
+2026-11-08 08:58:05,095 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Collections.dll
+2026-11-08 08:58:05,148 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Collections.dll: 884 bytes
+2026-11-08 08:58:05,148 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll (4096 -> 4096 bytes)
+2026-11-08 08:58:05,149 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll
+2026-11-08 08:58:05,149 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll: 257 bytes
+2026-11-08 08:58:05,150 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.InputSystem.dll (1102336 -> 1128960 bytes)
+2026-11-08 08:58:05,151 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.InputSystem.dll
+2026-11-08 08:58:05,422 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.InputSystem.dll: 204201 bytes
+2026-11-08 08:58:05,429 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Jobs.dll (4096 -> 4096 bytes)
+2026-11-08 08:58:05,429 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Jobs.dll
+2026-11-08 08:58:05,430 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Jobs.dll: 256 bytes
+2026-11-08 08:58:05,431 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Mathematics.dll (741376 -> 741376 bytes)
+2026-11-08 08:58:05,431 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Mathematics.dll
+2026-11-08 08:58:05,513 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Mathematics.dll: 265 bytes
+2026-11-08 08:58:05,514 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll (18432 -> 18432 bytes)
+2026-11-08 08:58:05,514 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll
+2026-11-08 08:58:05,516 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll: 257 bytes
+2026-11-08 08:58:05,517 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll (20992 -> 20992 bytes)
+2026-11-08 08:58:05,517 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll
+2026-11-08 08:58:05,519 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll: 209 bytes
+2026-11-08 08:58:05,520 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll (54784 -> 54784 bytes)
+2026-11-08 08:58:05,520 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll
+2026-11-08 08:58:05,525 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll: 265 bytes
+2026-11-08 08:58:05,525 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll (9728 -> 9728 bytes)
+2026-11-08 08:58:05,526 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll
+2026-11-08 08:58:05,527 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll: 262 bytes
+2026-11-08 08:58:05,527 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll (23040 -> 23040 bytes)
+2026-11-08 08:58:05,528 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll
+2026-11-08 08:58:05,530 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll: 261 bytes
+2026-11-08 08:58:05,530 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll (4096 -> 4096 bytes)
+2026-11-08 08:58:05,530 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll
+2026-11-08 08:58:05,531 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll: 254 bytes
+2026-11-08 08:58:05,531 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll (12288 -> 12288 bytes)
+2026-11-08 08:58:05,532 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll
+2026-11-08 08:58:05,533 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll: 200 bytes
+2026-11-08 08:58:05,534 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll (14336 -> 14336 bytes)
+2026-11-08 08:58:05,534 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll
+2026-11-08 08:58:05,535 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll: 261 bytes
+2026-11-08 08:58:05,536 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll (6144 -> 6144 bytes)
+2026-11-08 08:58:05,536 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll
+2026-11-08 08:58:05,537 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll: 254 bytes
+2026-11-08 08:58:05,537 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Netcode.Components.dll (65536 -> 77824 bytes)
+2026-11-08 08:58:05,537 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Netcode.Components.dll
+2026-11-08 08:58:05,555 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Netcode.Components.dll: 23409 bytes
+2026-11-08 08:58:05,556 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll (327680 -> 390144 bytes)
+2026-11-08 08:58:05,557 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll
+2026-11-08 08:58:05,643 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll: 104120 bytes
+2026-11-08 08:58:05,647 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Networking.Transport.dll (165888 -> 166400 bytes)
+2026-11-08 08:58:05,648 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Networking.Transport.dll
+2026-11-08 08:58:05,669 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Networking.Transport.dll: 6339 bytes
+2026-11-08 08:58:05,669 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll (18944 -> 18944 bytes)
+2026-11-08 08:58:05,670 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll
+2026-11-08 08:58:05,672 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll: 687 bytes
+2026-11-08 08:58:05,672 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll (20992 -> 20992 bytes)
+2026-11-08 08:58:05,673 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll
+2026-11-08 08:58:05,675 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll: 381 bytes
+2026-11-08 08:58:05,675 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll (39936 -> 39936 bytes)
+2026-11-08 08:58:05,676 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll
+2026-11-08 08:58:05,679 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll: 481 bytes
+2026-11-08 08:58:05,680 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll (13824 -> 13824 bytes)
+2026-11-08 08:58:05,681 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll
+2026-11-08 08:58:05,682 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll: 376 bytes
+2026-11-08 08:58:05,682 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.dll (404480 -> 404480 bytes)
+2026-11-08 08:58:05,683 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.dll
+2026-11-08 08:58:05,725 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.dll: 927 bytes
+2026-11-08 08:58:05,727 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Profiling.Core.dll (10240 -> 10240 bytes)
+2026-11-08 08:58:05,727 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Profiling.Core.dll
+2026-11-08 08:58:05,728 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Profiling.Core.dll: 257 bytes
+2026-11-08 08:58:05,729 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll (527872 -> 532480 bytes)
+2026-11-08 08:58:05,730 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+2026-11-08 08:58:05,842 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll: 110906 bytes
+2026-11-08 08:58:05,846 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll (4608 -> 4608 bytes)
+2026-11-08 08:58:05,847 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+2026-11-08 08:58:05,848 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll: 416 bytes
+2026-11-08 08:58:05,848 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll (6656 -> 7168 bytes)
+2026-11-08 08:58:05,849 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+2026-11-08 08:58:05,850 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll: 1083 bytes
+2026-11-08 08:58:05,851 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll (4816896 -> 4825088 bytes)
+2026-11-08 08:58:05,855 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll
+2026-11-08 08:58:07,006 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll: 266810 bytes
+2026-11-08 08:58:07,015 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll (4608 -> 4608 bytes)
+2026-11-08 08:58:07,016 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+2026-11-08 08:58:07,017 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll: 383 bytes
+2026-11-08 08:58:07,018 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Authentication.dll (115200 -> 115200 bytes)
+2026-11-08 08:58:07,018 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Authentication.dll
+2026-11-08 08:58:07,028 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Authentication.dll: 631 bytes
+2026-11-08 08:58:07,029 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll (5632 -> 5632 bytes)
+2026-11-08 08:58:07,029 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll
+2026-11-08 08:58:07,030 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll: 394 bytes
+2026-11-08 08:58:07,030 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.Services.Core.Components.dll (10752 bytes)
+2026-11-08 08:58:07,031 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll (14336 -> 14336 bytes)
+2026-11-08 08:58:07,032 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll
+2026-11-08 08:58:07,033 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll: 414 bytes
+2026-11-08 08:58:07,033 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Device.dll (6656 -> 6656 bytes)
+2026-11-08 08:58:07,034 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Device.dll
+2026-11-08 08:58:07,034 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Device.dll: 401 bytes
+2026-11-08 08:58:07,035 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll (5120 -> 5120 bytes)
+2026-11-08 08:58:07,035 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll
+2026-11-08 08:58:07,036 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll: 565 bytes
+2026-11-08 08:58:07,037 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll (5632 -> 5632 bytes)
+2026-11-08 08:58:07,037 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll
+2026-11-08 08:58:07,038 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll: 324 bytes
+2026-11-08 08:58:07,039 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll (68608 -> 74240 bytes)
+2026-11-08 08:58:07,039 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll
+2026-11-08 08:58:07,053 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll: 16125 bytes
+2026-11-08 08:58:07,054 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll (8192 -> 8192 bytes)
+2026-11-08 08:58:07,055 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll
+2026-11-08 08:58:07,055 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll: 396 bytes
+2026-11-08 08:58:07,056 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll (18944 -> 18432 bytes)
+2026-11-08 08:58:07,056 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll
+2026-11-08 08:58:07,060 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll: 3892 bytes
+2026-11-08 08:58:07,061 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll (12800 -> 12800 bytes)
+2026-11-08 08:58:07,061 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll
+2026-11-08 08:58:07,062 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll: 455 bytes
+2026-11-08 08:58:07,063 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll (36352 -> 8704 bytes)
+2026-11-08 08:58:07,063 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll
+2026-11-08 08:58:07,067 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll: 2055 bytes
+2026-11-08 08:58:07,068 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll (7168 -> 7168 bytes)
+2026-11-08 08:58:07,068 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll
+2026-11-08 08:58:07,069 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll: 324 bytes
+2026-11-08 08:58:07,070 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.dll (13824 -> 16384 bytes)
+2026-11-08 08:58:07,070 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.dll
+2026-11-08 08:58:07,073 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.dll: 4361 bytes
+2026-11-08 08:58:07,074 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.QoS.dll (95744 -> 137216 bytes)
+2026-11-08 08:58:07,074 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.QoS.dll
+2026-11-08 08:58:07,100 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.QoS.dll: 35004 bytes
+2026-11-08 08:58:07,102 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Relay.dll (87552 -> 87552 bytes)
+2026-11-08 08:58:07,102 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Relay.dll
+2026-11-08 08:58:07,109 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Relay.dll: 256 bytes
+2026-11-08 08:58:07,110 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.TextMeshPro.dll (380416 -> 380416 bytes)
+2026-11-08 08:58:07,111 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.TextMeshPro.dll
+2026-11-08 08:58:07,155 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.TextMeshPro.dll: 926 bytes
+2026-11-08 08:58:07,155 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Timeline.dll (127488 -> 127488 bytes)
+2026-11-08 08:58:07,156 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Timeline.dll
+2026-11-08 08:58:07,171 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Timeline.dll: 2839 bytes
+2026-11-08 08:58:07,172 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll (101888 -> 101888 bytes)
+2026-11-08 08:58:07,172 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll
+2026-11-08 08:58:07,189 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll: 14920 bytes
+2026-11-08 08:58:07,190 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.CoreUtils.dll (89088 bytes)
+2026-11-08 08:58:07,192 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.Management.dll (17408 bytes)
+2026-11-08 08:58:07,193 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll (7680 bytes)
+2026-11-08 08:58:07,193 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll (5632 bytes)
+2026-11-08 08:58:07,194 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll (10240 bytes)
+2026-11-08 08:58:07,195 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll (5120 bytes)
+2026-11-08 08:58:07,197 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll (6144 bytes)
+2026-11-08 08:58:07,198 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.dll (175104 bytes)
+2026-11-08 08:58:07,201 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AIModule.dll (57880 -> 58800 bytes)
+2026-11-08 08:58:07,201 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AIModule.dll
+2026-11-08 08:58:07,210 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AIModule.dll: 8094 bytes
+2026-11-08 08:58:07,210 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ARModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:58:07,211 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ARModule.dll
+2026-11-08 08:58:07,215 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ARModule.dll: 6746 bytes
+2026-11-08 08:58:07,215 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll (23576 -> 23984 bytes)
+2026-11-08 08:58:07,216 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll
+2026-11-08 08:58:07,220 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll: 6642 bytes
+2026-11-08 08:58:07,221 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll (93720 -> 95144 bytes)
+2026-11-08 08:58:07,221 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll
+2026-11-08 08:58:07,238 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll: 15973 bytes
+2026-11-08 08:58:07,239 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll (163864 -> 164272 bytes)
+2026-11-08 08:58:07,239 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll
+2026-11-08 08:58:07,259 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll: 7347 bytes
+2026-11-08 08:58:07,260 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll (32792 -> 33200 bytes)
+2026-11-08 08:58:07,260 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll
+2026-11-08 08:58:07,265 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll: 6701 bytes
+2026-11-08 08:58:07,266 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AudioModule.dll (70680 -> 71600 bytes)
+2026-11-08 08:58:07,266 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AudioModule.dll
+2026-11-08 08:58:07,280 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AudioModule.dll: 14628 bytes
+2026-11-08 08:58:07,282 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClothModule.dll (26136 -> 26536 bytes)
+2026-11-08 08:58:07,282 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClothModule.dll
+2026-11-08 08:58:07,287 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClothModule.dll: 6628 bytes
+2026-11-08 08:58:07,287 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll (21528 -> 21928 bytes)
+2026-11-08 08:58:07,288 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll
+2026-11-08 08:58:07,292 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll: 6710 bytes
+2026-11-08 08:58:07,292 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll (22040 -> 22448 bytes)
+2026-11-08 08:58:07,293 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll
+2026-11-08 08:58:07,298 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll: 6605 bytes
+2026-11-08 08:58:07,298 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll (26648 -> 27568 bytes)
+2026-11-08 08:58:07,299 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll
+2026-11-08 08:58:07,305 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll: 8503 bytes
+2026-11-08 08:58:07,305 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.CoreModule.dll (1375256 -> 1393584 bytes)
+2026-11-08 08:58:07,307 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.CoreModule.dll
+2026-11-08 08:58:07,711 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.CoreModule.dll: 287212 bytes
+2026-11-08 08:58:07,720 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:58:07,720 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll
+2026-11-08 08:58:07,724 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll: 6714 bytes
+2026-11-08 08:58:07,725 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll (29208 -> 29616 bytes)
+2026-11-08 08:58:07,726 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll
+2026-11-08 08:58:07,730 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll: 6596 bytes
+2026-11-08 08:58:07,731 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll (24600 -> 25000 bytes)
+2026-11-08 08:58:07,731 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll
+2026-11-08 08:58:07,735 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll: 6707 bytes
+2026-11-08 08:58:07,736 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GIModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:07,737 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GIModule.dll
+2026-11-08 08:58:07,740 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GIModule.dll: 6624 bytes
+2026-11-08 08:58:07,741 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll (39960 -> 40360 bytes)
+2026-11-08 08:58:07,742 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll
+2026-11-08 08:58:07,747 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll: 6549 bytes
+2026-11-08 08:58:07,748 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GridModule.dll (25112 -> 25520 bytes)
+2026-11-08 08:58:07,748 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GridModule.dll
+2026-11-08 08:58:07,752 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GridModule.dll: 6625 bytes
+2026-11-08 08:58:07,753 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:07,753 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll
+2026-11-08 08:58:07,757 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll: 6597 bytes
+2026-11-08 08:58:07,758 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll (189464 -> 191400 bytes)
+2026-11-08 08:58:07,758 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll
+2026-11-08 08:58:07,793 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll: 30965 bytes
+2026-11-08 08:58:07,795 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll (24088 -> 24496 bytes)
+2026-11-08 08:58:07,795 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll
+2026-11-08 08:58:07,800 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll: 6596 bytes
+2026-11-08 08:58:07,800 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll (38936 -> 39336 bytes)
+2026-11-08 08:58:07,801 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll
+2026-11-08 08:58:07,806 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll: 6547 bytes
+2026-11-08 08:58:07,807 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.InputModule.dll (23576 -> 23976 bytes)
+2026-11-08 08:58:07,808 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.InputModule.dll
+2026-11-08 08:58:07,812 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.InputModule.dll: 6745 bytes
+2026-11-08 08:58:07,812 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll (22040 -> 22440 bytes)
+2026-11-08 08:58:07,813 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll
+2026-11-08 08:58:07,817 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll: 6721 bytes
+2026-11-08 08:58:07,818 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:58:07,818 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll
+2026-11-08 08:58:07,822 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll: 6748 bytes
+2026-11-08 08:58:07,823 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll (33816 -> 34216 bytes)
+2026-11-08 08:58:07,823 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll
+2026-11-08 08:58:07,828 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll: 6625 bytes
+2026-11-08 08:58:07,829 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll (156184 -> 161712 bytes)
+2026-11-08 08:58:07,829 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll
+2026-11-08 08:58:07,857 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll: 20283 bytes
+2026-11-08 08:58:07,858 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll (20504 -> 20912 bytes)
+2026-11-08 08:58:07,859 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+2026-11-08 08:58:07,862 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll: 6588 bytes
+2026-11-08 08:58:07,864 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll (141336 -> 141736 bytes)
+2026-11-08 08:58:07,864 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll
+2026-11-08 08:58:07,880 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll: 7296 bytes
+2026-11-08 08:58:07,881 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll (138264 -> 138672 bytes)
+2026-11-08 08:58:07,882 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll
+2026-11-08 08:58:07,897 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll: 7160 bytes
+2026-11-08 08:58:07,897 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:07,898 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll
+2026-11-08 08:58:07,901 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll: 6618 bytes
+2026-11-08 08:58:07,902 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll (151576 -> 155568 bytes)
+2026-11-08 08:58:07,902 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll
+2026-11-08 08:58:07,926 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll: 14882 bytes
+2026-11-08 08:58:07,927 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:07,928 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+2026-11-08 08:58:07,932 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll: 6640 bytes
+2026-11-08 08:58:07,932 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:58:07,933 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+2026-11-08 08:58:07,937 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll: 6572 bytes
+2026-11-08 08:58:07,939 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll (32792 -> 33192 bytes)
+2026-11-08 08:58:07,939 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll
+2026-11-08 08:58:07,944 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll: 7092 bytes
+2026-11-08 08:58:07,945 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/UnityEngine.SpatialTracking.dll (11776 bytes)
+2026-11-08 08:58:07,946 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll (21528 -> 22440 bytes)
+2026-11-08 08:58:07,946 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll
+2026-11-08 08:58:07,951 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll: 7666 bytes
+2026-11-08 08:58:07,952 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll (26136 -> 26544 bytes)
+2026-11-08 08:58:07,952 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll
+2026-11-08 08:58:07,956 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll: 6566 bytes
+2026-11-08 08:58:07,957 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll (20504 -> 20904 bytes)
+2026-11-08 08:58:07,958 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll
+2026-11-08 08:58:07,962 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll: 6583 bytes
+2026-11-08 08:58:07,962 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll (24600 -> 25000 bytes)
+2026-11-08 08:58:07,963 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll
+2026-11-08 08:58:07,967 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll: 6541 bytes
+2026-11-08 08:58:07,967 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll (34840 -> 35248 bytes)
+2026-11-08 08:58:07,968 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll
+2026-11-08 08:58:07,973 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll: 6748 bytes
+2026-11-08 08:58:07,974 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TLSModule.dll (26648 -> 27056 bytes)
+2026-11-08 08:58:07,974 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TLSModule.dll
+2026-11-08 08:58:07,978 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TLSModule.dll: 6779 bytes
+2026-11-08 08:58:07,979 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll (100888 -> 101288 bytes)
+2026-11-08 08:58:07,980 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll
+2026-11-08 08:58:07,995 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll: 11096 bytes
+2026-11-08 08:58:07,996 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:58:07,997 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+2026-11-08 08:58:08,001 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll: 6621 bytes
+2026-11-08 08:58:08,002 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll (72216 -> 72616 bytes)
+2026-11-08 08:58:08,002 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+2026-11-08 08:58:08,011 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll: 6935 bytes
+2026-11-08 08:58:08,011 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll (250392 -> 249264 bytes)
+2026-11-08 08:58:08,012 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+2026-11-08 08:58:08,053 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll: 19170 bytes
+2026-11-08 08:58:08,054 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll (38936 -> 39336 bytes)
+2026-11-08 08:58:08,055 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll
+2026-11-08 08:58:08,060 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll: 6700 bytes
+2026-11-08 08:58:08,061 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll (46616 -> 47016 bytes)
+2026-11-08 08:58:08,061 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll
+2026-11-08 08:58:08,067 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll: 6547 bytes
+2026-11-08 08:58:08,068 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UI.dll (264704 -> 264704 bytes)
+2026-11-08 08:58:08,069 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UI.dll
+2026-11-08 08:58:08,109 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UI.dll: 19427 bytes
+2026-11-08 08:58:08,110 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll (1516056 -> 1536424 bytes)
+2026-11-08 08:58:08,112 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll
+2026-11-08 08:58:08,659 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll: 325475 bytes
+2026-11-08 08:58:08,674 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UIModule.dll (36376 -> 36776 bytes)
+2026-11-08 08:58:08,675 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UIModule.dll
+2026-11-08 08:58:08,681 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UIModule.dll: 6730 bytes
+2026-11-08 08:58:08,681 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:08,682 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll
+2026-11-08 08:58:08,686 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll: 6654 bytes
+2026-11-08 08:58:08,687 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:58:08,687 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+2026-11-08 08:58:08,692 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll: 6568 bytes
+2026-11-08 08:58:08,693 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll (44568 -> 44968 bytes)
+2026-11-08 08:58:08,694 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+2026-11-08 08:58:08,700 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll: 6569 bytes
+2026-11-08 08:58:08,701 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll (21528 -> 22440 bytes)
+2026-11-08 08:58:08,701 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll
+2026-11-08 08:58:08,706 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll: 6733 bytes
+2026-11-08 08:58:08,707 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll (21528 -> 21936 bytes)
+2026-11-08 08:58:08,708 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll
+2026-11-08 08:58:08,712 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll: 6631 bytes
+2026-11-08 08:58:08,713 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:58:08,713 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+2026-11-08 08:58:08,718 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll: 6642 bytes
+2026-11-08 08:58:08,719 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll (23064 -> 23472 bytes)
+2026-11-08 08:58:08,719 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+2026-11-08 08:58:08,724 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll: 6605 bytes
+2026-11-08 08:58:08,724 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll (22552 -> 22952 bytes)
+2026-11-08 08:58:08,725 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+2026-11-08 08:58:08,729 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll: 6677 bytes
+2026-11-08 08:58:08,730 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll (57880 -> 58792 bytes)
+2026-11-08 08:58:08,731 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+2026-11-08 08:58:08,741 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll: 8064 bytes
+2026-11-08 08:58:08,742 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll (21528 -> 21936 bytes)
+2026-11-08 08:58:08,742 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+2026-11-08 08:58:08,747 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll: 6615 bytes
+2026-11-08 08:58:08,748 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll (31256 -> 31656 bytes)
+2026-11-08 08:58:08,749 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+2026-11-08 08:58:08,754 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll: 6712 bytes
+2026-11-08 08:58:08,755 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VFXModule.dll (58392 -> 58792 bytes)
+2026-11-08 08:58:08,756 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VFXModule.dll
+2026-11-08 08:58:08,765 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VFXModule.dll: 7272 bytes
+2026-11-08 08:58:08,766 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VRModule.dll (26136 -> 27048 bytes)
+2026-11-08 08:58:08,767 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VRModule.dll
+2026-11-08 08:58:08,771 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VRModule.dll: 7380 bytes
+2026-11-08 08:58:08,773 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll (24088 -> 24488 bytes)
+2026-11-08 08:58:08,773 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll
+2026-11-08 08:58:08,778 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll: 6660 bytes
+2026-11-08 08:58:08,779 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VideoModule.dll (40984 -> 41384 bytes)
+2026-11-08 08:58:08,780 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VideoModule.dll
+2026-11-08 08:58:08,786 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VideoModule.dll: 6614 bytes
+2026-11-08 08:58:08,787 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll (35352 -> 36272 bytes)
+2026-11-08 08:58:08,788 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+2026-11-08 08:58:08,794 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll: 8788 bytes
+2026-11-08 08:58:08,795 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.WindModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:58:08,796 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.WindModule.dll
+2026-11-08 08:58:08,800 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.WindModule.dll: 6609 bytes
+2026-11-08 08:58:08,801 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll (23552 bytes)
+2026-11-08 08:58:08,802 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.XRModule.dll (70680 -> 71088 bytes)
+2026-11-08 08:58:08,802 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.XRModule.dll
+2026-11-08 08:58:08,814 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.XRModule.dll: 9181 bytes
+2026-11-08 08:58:08,815 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.dll (125464 -> 126888 bytes)
+2026-11-08 08:58:08,816 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.dll
+2026-11-08 08:58:08,845 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.dll: 23254 bytes
+2026-11-08 08:58:08,846 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/com.olegknyazev.softmask.dll (34816 bytes)
+2026-11-08 08:58:08,847 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/mscorlib.dll (4631552 -> 4631552 bytes)
+2026-11-08 08:58:08,850 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/mscorlib.dll
+2026-11-08 08:58:09,838 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/mscorlib.dll: 18541 bytes
+2026-11-08 08:58:09,839 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Plugins/x86_64/UnityOpenXR.dll (831488 bytes)
+2026-11-08 08:58:09,858 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Plugins/x86_64/openxr_loader.dll (2036224 bytes)
+2026-11-08 08:58:09,888 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Resources/unity default resources (1550440 -> 1564240 bytes)
+2026-11-08 08:58:09,890 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Resources/unity default resources
+2026-11-08 08:58:10,169 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Resources/unity default resources: 15775 bytes
+2026-11-08 08:58:10,171 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Resources/unity_builtin_extra (431408 -> 620500 bytes)
+2026-11-08 08:58:10,172 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Resources/unity_builtin_extra
+2026-11-08 08:58:10,340 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Resources/unity_builtin_extra: 183050 bytes
+2026-11-08 08:58:10,346 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/RuntimeInitializeOnLoads.json (19270 -> 7155 bytes)
+2026-11-08 08:58:10,347 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/RuntimeInitializeOnLoads.json
+2026-11-08 08:58:10,349 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/RuntimeInitializeOnLoads.json: 580 bytes
+2026-11-08 08:58:10,349 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/ScriptingAssemblies.json (4903 -> 5506 bytes)
+2026-11-08 08:58:10,350 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/ScriptingAssemblies.json
+2026-11-08 08:58:10,351 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/ScriptingAssemblies.json: 602 bytes
+2026-11-08 08:58:10,351 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json (1619 -> 1757 bytes)
+2026-11-08 08:58:10,351 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json
+2026-11-08 08:58:10,352 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json: 241 bytes
+2026-11-08 08:58:10,353 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json (334 bytes)
+2026-11-08 08:58:10,354 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/boot.config (164 -> 188 bytes)
+2026-11-08 08:58:10,354 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/boot.config
+2026-11-08 08:58:10,355 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/boot.config: 219 bytes
+2026-11-08 08:58:10,355 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers (216968 -> 232756 bytes)
+2026-11-08 08:58:10,356 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers
+2026-11-08 08:58:10,419 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers: 47113 bytes
+2026-11-08 08:58:10,421 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers.assets (21271052 -> 89083164 bytes)
+2026-11-08 08:58:10,456 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers.assets
+2026-11-08 08:59:23,783 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers.assets: 36236395 bytes
+2026-11-08 08:59:24,727 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers.assets.resS (16829376 -> 16669456 bytes)
+2026-11-08 08:59:24,741 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers.assets.resS
+2026-11-08 08:59:27,974 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers.assets.resS: 5266 bytes
+2026-11-08 08:59:27,975 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level0 (44936 -> 45592 bytes)
+2026-11-08 08:59:27,977 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level0
+2026-11-08 08:59:27,985 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level0: 2547 bytes
+2026-11-08 08:59:27,986 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level1 (13524 -> 13556 bytes)
+2026-11-08 08:59:27,986 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level1
+2026-11-08 08:59:27,988 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level1: 789 bytes
+2026-11-08 08:59:27,989 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level10 (2526520 -> 2551264 bytes)
+2026-11-08 08:59:27,991 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level10
+2026-11-08 08:59:28,942 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level10: 618070 bytes
+2026-11-08 08:59:28,960 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level10.resS (12067008 -> 12139872 bytes)
+2026-11-08 08:59:28,968 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level10.resS
+2026-11-08 08:59:32,626 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level10.resS: 132657 bytes
+2026-11-08 08:59:32,631 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level11 (2000696 -> 2012448 bytes)
+2026-11-08 08:59:32,634 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level11
+2026-11-08 08:59:33,226 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level11: 244261 bytes
+2026-11-08 08:59:33,233 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level11.resS (9890032 -> 9889984 bytes)
+2026-11-08 08:59:33,240 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level11.resS
+2026-11-08 08:59:36,248 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level11.resS: 100732 bytes
+2026-11-08 08:59:36,252 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level12 (1092928 -> 1474336 bytes)
+2026-11-08 08:59:36,254 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level12
+2026-11-08 08:59:36,594 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level12: 325247 bytes
+2026-11-08 08:59:36,604 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level12.resS (6081264 -> 7093680 bytes)
+2026-11-08 08:59:36,608 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level12.resS
+2026-11-08 08:59:38,783 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level12.resS: 828181 bytes
+2026-11-08 08:59:38,808 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level13 (626016 -> 632512 bytes)
+2026-11-08 08:59:38,809 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level13
+2026-11-08 08:59:38,940 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level13: 47610 bytes
+2026-11-08 08:59:38,943 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level13.resS (1389168 -> 1382032 bytes)
+2026-11-08 08:59:38,944 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level13.resS
+2026-11-08 08:59:39,169 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level13.resS: 7294 bytes
+2026-11-08 08:59:39,170 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level14 (1785728 -> 1815128 bytes)
+2026-11-08 08:59:39,172 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level14
+2026-11-08 08:59:39,655 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level14: 277084 bytes
+2026-11-08 08:59:39,664 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level14.resS (7236832 -> 7244896 bytes)
+2026-11-08 08:59:39,668 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level14.resS
+2026-11-08 08:59:41,473 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level14.resS: 52010 bytes
+2026-11-08 08:59:41,475 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level15 (1560192 -> 2442440 bytes)
+2026-11-08 08:59:41,478 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level15
+2026-11-08 08:59:42,324 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level15: 427084 bytes
+2026-11-08 08:59:42,337 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level15.resS (7575872 -> 15749504 bytes)
+2026-11-08 08:59:42,344 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level15.resS
+2026-11-08 08:59:53,846 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level15.resS: 7547016 bytes
+2026-11-08 08:59:54,053 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level16 (684216 -> 724072 bytes)
+2026-11-08 08:59:54,055 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level16
+2026-11-08 08:59:54,199 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level16: 53307 bytes
+2026-11-08 08:59:54,202 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level16.resS (1514240 -> 1514240 bytes)
+2026-11-08 08:59:54,203 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level16.resS
+2026-11-08 08:59:54,429 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level16.resS: 1613 bytes
+2026-11-08 08:59:54,430 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level17 (96512 -> 102448 bytes)
+2026-11-08 08:59:54,431 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level17
+2026-11-08 08:59:54,451 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level17: 6104 bytes
+2026-11-08 08:59:54,452 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/level17.resS (35072 bytes)
+2026-11-08 08:59:54,453 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level18 (93632 -> 99992 bytes)
+2026-11-08 08:59:54,453 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level18
+2026-11-08 08:59:54,470 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level18: 6139 bytes
+2026-11-08 08:59:54,471 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level2 (264808 -> 315576 bytes)
+2026-11-08 08:59:54,472 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level2
+2026-11-08 08:59:54,530 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level2: 20842 bytes
+2026-11-08 08:59:54,532 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level3 (1203532 -> 1350556 bytes)
+2026-11-08 08:59:54,533 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level3
+2026-11-08 08:59:54,873 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level3: 84085 bytes
+2026-11-08 08:59:54,876 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level4 (2438520 -> 2459260 bytes)
+2026-11-08 08:59:54,879 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level4
+2026-11-08 08:59:55,433 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level4: 107960 bytes
+2026-11-08 08:59:55,437 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level4.resS (16415712 -> 16416976 bytes)
+2026-11-08 08:59:55,447 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level4.resS
+2026-11-08 08:59:59,878 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level4.resS: 21561 bytes
+2026-11-08 08:59:59,879 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level5 (1287912 -> 1305424 bytes)
+2026-11-08 08:59:59,881 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level5
+2026-11-08 09:00:00,237 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level5: 301368 bytes
+2026-11-08 09:00:00,246 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level5.resS (5153200 -> 5159024 bytes)
+2026-11-08 09:00:00,249 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level5.resS
+2026-11-08 09:00:01,300 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level5.resS: 19906 bytes
+2026-11-08 09:00:01,301 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level6 (4031000 -> 4253456 bytes)
+2026-11-08 09:00:01,305 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level6
+2026-11-08 09:00:02,771 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level6: 579554 bytes
+2026-11-08 09:00:02,787 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level6.resS (26246192 -> 27734752 bytes)
+2026-11-08 09:00:02,805 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level6.resS
+2026-11-08 09:00:43,715 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level6.resS: 18100235 bytes
+2026-11-08 09:00:44,205 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level7 (827800 -> 831144 bytes)
+2026-11-08 09:00:44,207 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level7
+2026-11-08 09:00:44,427 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level7: 144560 bytes
+2026-11-08 09:00:44,433 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level7.resS (2943488 -> 2870624 bytes)
+2026-11-08 09:00:44,435 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level7.resS
+2026-11-08 09:00:44,981 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level7.resS: 2709 bytes
+2026-11-08 09:00:44,982 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level8 (13580 -> 13612 bytes)
+2026-11-08 09:00:44,982 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level8
+2026-11-08 09:00:44,984 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level8: 797 bytes
+2026-11-08 09:00:44,985 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level9 (5009536 -> 3777544 bytes)
+2026-11-08 09:00:44,988 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level9
+2026-11-08 09:00:46,516 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level9: 499887 bytes
+2026-11-08 09:00:46,531 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level9.resS (33507776 -> 29715232 bytes)
+2026-11-08 09:00:46,550 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level9.resS
+2026-11-08 09:01:31,181 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level9.resS: 16317160 bytes
+2026-11-08 09:01:31,630 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/resources.assets (1307136 -> 1413776 bytes)
+2026-11-08 09:01:31,633 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/resources.assets
+2026-11-08 09:01:31,899 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/resources.assets: 89803 bytes
+2026-11-08 09:01:31,902 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets0.assets (1340728 -> 1349960 bytes)
+2026-11-08 09:01:31,903 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets0.assets
+2026-11-08 09:01:32,117 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets0.assets: 16306 bytes
+2026-11-08 09:01:32,118 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.assets (24154548 -> 41619128 bytes)
+2026-11-08 09:01:32,139 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets1.assets
+2026-11-08 09:01:56,079 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets1.assets: 10077946 bytes
+2026-11-08 09:01:56,339 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.assets.resS (305203920 -> 524036288 bytes)
+2026-11-08 09:01:56,339 WARNING deltapatcher.core.patch_format: File too large for diff, using full copy: Lethal Company_Data/sharedassets1.assets.resS (305203920 -> 524036288 bytes)
+2026-11-08 09:02:03,059 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.resource (29199576 -> 33851836 bytes)
+2026-11-08 09:02:03,084 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets1.resource
+2026-11-08 09:02:24,951 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets1.resource: 9920524 bytes
+2026-11-08 09:02:25,208 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets10.assets (3581548 -> 3844336 bytes)
+2026-11-08 09:02:25,213 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets10.assets
+2026-11-08 09:02:26,249 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets10.assets: 349660 bytes
+2026-11-08 09:02:26,259 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets10.assets.resS (38334240 -> 51497904 bytes)
+2026-11-08 09:02:26,288 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets10.assets.resS
+2026-11-08 09:02:40,637 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets10.assets.resS: 226677 bytes
+2026-11-08 09:02:40,645 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets11.assets (3457148 -> 3794136 bytes)
+2026-11-08 09:02:40,650 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets11.assets
+2026-11-08 09:02:41,375 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets11.assets: 127629 bytes
+2026-11-08 09:02:41,379 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets11.assets.resS (1424896 -> 16907776 bytes)
+2026-11-08 09:02:41,385 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets11.assets.resS
+2026-11-08 09:02:46,390 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets11.assets.resS: 703658 bytes
+2026-11-08 09:02:46,410 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets12.assets (931792 -> 1064664 bytes)
+2026-11-08 09:02:46,412 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets12.assets
+2026-11-08 09:02:46,631 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets12.assets: 46216 bytes
+2026-11-08 09:02:46,632 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/sharedassets12.assets.resS (3800928 bytes)
+2026-11-08 09:02:46,661 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets13.assets (4842480 -> 4839704 bytes)
+2026-11-08 09:02:46,665 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets13.assets
+2026-11-08 09:02:47,790 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets13.assets: 19152 bytes
+2026-11-08 09:02:47,791 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.assets (6133860 -> 6377756 bytes)
+2026-11-08 09:02:47,796 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.assets
+2026-11-08 09:02:48,995 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.assets: 87375 bytes
+2026-11-08 09:02:48,998 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.assets.resS (2931488 -> 8769376 bytes)
+2026-11-08 09:02:49,002 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.assets.resS
+2026-11-08 09:02:51,783 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.assets.resS: 81725 bytes
+2026-11-08 09:02:51,786 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.resource (390272 -> 437600 bytes)
+2026-11-08 09:02:51,787 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.resource
+2026-11-08 09:02:51,890 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.resource: 158430 bytes
+2026-11-08 09:02:51,894 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.assets (3155836 -> 5430700 bytes)
+2026-11-08 09:02:51,897 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.assets
+2026-11-08 09:02:53,267 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.assets: 252168 bytes
+2026-11-08 09:02:53,274 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.assets.resS (13425920 -> 34152688 bytes)
+2026-11-08 09:02:53,290 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.assets.resS
+2026-11-08 09:03:03,892 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.assets.resS: 3346772 bytes
+2026-11-08 09:03:03,980 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.resource (72960 -> 513664 bytes)
+2026-11-08 09:03:03,982 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.resource
+2026-11-08 09:03:04,117 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.resource: 437180 bytes
+2026-11-08 09:03:04,129 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets16.assets (4853664 -> 4919736 bytes)
+2026-11-08 09:03:04,132 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets16.assets
+2026-11-08 09:03:04,994 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets16.assets: 20483 bytes
+2026-11-08 09:03:04,996 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets17.assets (322104 -> 322144 bytes)
+2026-11-08 09:03:04,997 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets17.assets
+2026-11-08 09:03:05,038 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets17.assets: 3659 bytes
+2026-11-08 09:03:05,039 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets17.assets.resS (2213392 -> 2213648 bytes)
+2026-11-08 09:03:05,041 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets17.assets.resS
+2026-11-08 09:03:05,397 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets17.assets.resS: 12381 bytes
+2026-11-08 09:03:05,398 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets18.assets (622436 -> 622620 bytes)
+2026-11-08 09:03:05,399 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets18.assets
+2026-11-08 09:03:05,479 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets18.assets: 4035 bytes
+2026-11-08 09:03:05,480 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/sharedassets2.assets (72620 bytes)
+2026-11-08 09:03:05,481 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets2.assets.resS (2728768 -> 2736960 bytes)
+2026-11-08 09:03:05,484 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets2.assets.resS
+2026-11-08 09:03:06,000 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets2.assets.resS: 4394 bytes
+2026-11-08 09:03:06,001 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets3.assets (27954704 -> 37971100 bytes)
+2026-11-08 09:03:06,021 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets3.assets
+2026-11-08 09:03:26,277 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets3.assets: 6442464 bytes
+2026-11-08 09:03:26,445 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets3.assets.resS (205712432 -> 330751040 bytes)
+2026-11-08 09:03:26,446 WARNING deltapatcher.core.patch_format: File too large for diff, using full copy: Lethal Company_Data/sharedassets3.assets.resS (205712432 -> 330751040 bytes)
+2026-11-08 09:03:31,332 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets3.resource (37607249 -> 53390074 bytes)
+2026-11-08 09:03:31,363 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets3.resource
+2026-11-08 09:04:34,519 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets3.resource: 35688423 bytes
+2026-11-08 09:04:35,464 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets4.assets (18249748 -> 18436660 bytes)
+2026-11-08 09:04:35,480 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets4.assets
+2026-11-08 09:04:44,588 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets4.assets: 1616282 bytes
+2026-11-08 09:04:44,635 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets4.assets.resS (24902832 -> 24718448 bytes)
+2026-11-08 09:04:44,657 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets4.assets.resS
+2026-11-08 09:04:52,082 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets4.assets.resS: 69075 bytes
+2026-11-08 09:04:52,085 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets5.assets (5835680 -> 5947448 bytes)
+2026-11-08 09:04:52,091 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets5.assets
+2026-11-08 09:04:54,079 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets5.assets: 507220 bytes
+2026-11-08 09:04:54,092 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets5.assets.resS (1058400 -> 5028112 bytes)
+2026-11-08 09:04:54,095 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets5.assets.resS
+2026-11-08 09:04:55,664 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets5.assets.resS: 176165 bytes
+2026-11-08 09:04:55,669 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets5.resource (441088 -> 797088 bytes)
+2026-11-08 09:04:55,670 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets5.resource
+2026-11-08 09:04:56,030 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets5.resource: 793819 bytes
+2026-11-08 09:04:56,051 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets6.assets (4227452 -> 12651096 bytes)
+2026-11-08 09:04:56,057 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets6.assets
+2026-11-08 09:05:00,302 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets6.assets: 1125506 bytes
+2026-11-08 09:05:00,333 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets6.assets.resS (10252000 -> 16152000 bytes)
+2026-11-08 09:05:00,342 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets6.assets.resS
+2026-11-08 09:05:04,609 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets6.assets.resS: 814349 bytes
+2026-11-08 09:05:04,630 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets6.resource (286912 -> 641696 bytes)
+2026-11-08 09:05:04,631 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets6.resource
+2026-11-08 09:05:04,766 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets6.resource: 354744 bytes
+2026-11-08 09:05:04,775 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets7.assets (569444 -> 657888 bytes)
+2026-11-08 09:05:04,776 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets7.assets
+2026-11-08 09:05:04,898 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets7.assets: 35997 bytes
+2026-11-08 09:05:04,900 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets7.assets.resS (8638592 -> 15667616 bytes)
+2026-11-08 09:05:04,908 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets7.assets.resS
+2026-11-08 09:05:06,639 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets7.assets.resS: 26528 bytes
+2026-11-08 09:05:06,641 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets7.resource (534368 -> 1428000 bytes)
+2026-11-08 09:05:06,642 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets7.resource
+2026-11-08 09:05:07,059 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets7.resource: 883319 bytes
+2026-11-08 09:05:07,082 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets8.assets (174189 -> 232401 bytes)
+2026-11-08 09:05:07,083 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets8.assets
+2026-11-08 09:05:07,114 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets8.assets: 652 bytes
+2026-11-08 09:05:07,115 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets9.assets (3145768 -> 3770272 bytes)
+2026-11-08 09:05:07,117 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets9.assets
+2026-11-08 09:05:08,956 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets9.assets: 689974 bytes
+2026-11-08 09:05:08,974 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets9.assets.resS (1423040 -> 43144352 bytes)
+2026-11-08 09:05:08,988 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets9.assets.resS
+2026-11-08 09:05:22,540 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets9.assets.resS: 6869146 bytes
+2026-11-08 09:05:22,784 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/sharedassets9.resource (716352 bytes)
+2026-11-08 09:05:22,806 DEBUG deltapatcher.core.patch_format: Diffing: MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll (610840 -> 611240 bytes)
+2026-11-08 09:05:22,808 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll
+2026-11-08 09:05:22,886 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll: 6412 bytes
+2026-11-08 09:05:22,887 DEBUG deltapatcher.core.patch_format: Diffing: MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll (7752216 -> 7897520 bytes)
+2026-11-08 09:05:22,892 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+2026-11-08 09:05:25,591 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll: 1269777 bytes
+2026-11-08 09:05:25,626 DEBUG deltapatcher.core.patch_format: Diffing: NVUnityPlugin.dll (1380376 -> 1466800 bytes)
+2026-11-08 09:05:25,627 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for NVUnityPlugin.dll
+2026-11-08 09:05:25,957 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for NVUnityPlugin.dll: 197815 bytes
+2026-11-08 09:05:25,962 DEBUG deltapatcher.core.patch_format: Diffing: OnlineFix.ini (682 -> 464 bytes)
+2026-11-08 09:05:25,963 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for OnlineFix.ini
+2026-11-08 09:05:25,963 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for OnlineFix.ini: 230 bytes
+2026-11-08 09:05:25,964 DEBUG deltapatcher.core.patch_format: Diffing: OnlineFix64.dll (11200512 -> 11944448 bytes)
+2026-11-08 09:05:25,970 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for OnlineFix64.dll
+2026-11-08 09:05:37,750 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for OnlineFix64.dll: 10548998 bytes
+2026-11-08 09:05:38,013 DEBUG deltapatcher.core.patch_format: Diffing: UnityCrashHandler64.exe (1114136 -> 1185192 bytes)
+2026-11-08 09:05:38,015 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for UnityCrashHandler64.exe
+2026-11-08 09:05:38,265 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for UnityCrashHandler64.exe: 130223 bytes
+2026-11-08 09:05:38,270 DEBUG deltapatcher.core.patch_format: Diffing: UnityPlayer.dll (30746648 -> 31100840 bytes)
+2026-11-08 09:05:38,287 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for UnityPlayer.dll
+2026-11-08 09:05:52,693 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for UnityPlayer.dll: 4437261 bytes
+2026-11-08 09:05:52,810 DEBUG deltapatcher.core.patch_format: Diffing: winmm.dll (524288 -> 506368 bytes)
+2026-11-08 09:05:52,813 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for winmm.dll
+2026-11-08 09:05:52,964 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for winmm.dll: 145382 bytes
+2026-11-08 09:05:52,970 INFO deltapatcher.core.patch_format: Patch zip built successfully: 437656505 bytes
+2026-11-08 09:05:52,971 INFO deltapatcher.creator.build_applier: Patch zip built: 437656505 bytes
+2026-11-08 09:05:52,976 DEBUG deltapatcher.creator.build_applier: Writing patch.zip to temp dir: C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\patch.zip
+2026-11-08 09:05:55,388 DEBUG deltapatcher.creator.build_applier: patch.zip written: 437656505 bytes
+2026-11-08 09:05:55,388 INFO deltapatcher.creator.build_applier: Running PyInstaller with args: C:\Dev\Coding\deltapatcher\deltapatcher\applier\applier_gui.py --onefile --noconsole --name lc-patch --distpath C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\dist --workpath C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build --specpath C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv --paths C:\Dev\Coding\deltapatcher --add-data C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\patch.zip;. -y
+2026-11-08 09:05:55,813 INFO PyInstaller.__main__: PyInstaller: 6.21.0, contrib hooks: 2026.6
+2026-11-08 09:05:55,813 INFO PyInstaller.__main__: Python: 3.14.4
+2026-11-08 09:05:55,845 INFO PyInstaller.__main__: Platform: Windows-11-10.0.26200-SP0
+2026-11-08 09:05:55,845 INFO PyInstaller.__main__: Python environment: C:\Users\Psycho\AppData\Local\Programs\Python\Python314
+2026-11-08 09:05:55,846 INFO PyInstaller.__main__: wrote C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\lc-patch.spec
+2026-11-08 09:05:55,848 DEBUG PyInstaller.configure: Testing UPX availability ...
+2026-11-08 09:05:55,856 DEBUG PyInstaller.configure: UPX is not available.
+2026-11-08 09:05:55,864 DEBUG PyInstaller.building.build_main: script: C:\Dev\Coding\deltapatcher\deltapatcher\applier\applier_gui.py
+2026-11-08 09:05:55,930 INFO PyInstaller.building.build_main: Module search paths (PYTHONPATH):
+['C:\\Dev\\Coding\\deltapatcher',
+ 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip',
+ 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs',
+ 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib',
+ 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314',
+ 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages',
+ 'C:\\Dev\\Coding\\deltapatcher']
+2026-11-08 09:05:57,508 INFO PyInstaller.building.build_main: Appending 'datas' from .spec
+2026-11-08 09:05:57,509 INFO PyInstaller.building.datastruct: checking Analysis
+2026-11-08 09:05:57,509 INFO PyInstaller.building.datastruct: Building Analysis because Analysis-00.toc is non existent
+2026-11-08 09:05:57,509 INFO PyInstaller.building.build_main: Looking for Python shared library...
+2026-11-08 09:05:57,509 INFO PyInstaller.building.build_main: Using Python shared library: C:\Users\Psycho\AppData\Local\Programs\Python\Python314\python314.dll
+2026-11-08 09:05:57,509 INFO PyInstaller.building.build_main: Running Analysis Analysis-00.toc
+2026-11-08 09:05:57,509 INFO PyInstaller.building.build_main: Target bytecode optimization level: 0
+2026-11-08 09:05:57,509 INFO PyInstaller.depend.analysis: Initializing module dependency graph...
+2026-11-08 09:05:57,512 INFO PyInstaller.depend.analysis: Initializing module graph hook caches...
+2026-11-08 09:05:57,643 INFO PyInstaller.depend.analysis: Analyzing modules for base_library.zip ...
+2026-11-08 09:05:57,644 DEBUG PyInstaller.utils.hooks: Collecting submodules for re
+2026-11-08 09:05:58,003 DEBUG PyInstaller.utils.hooks: collect_submodules - found submodules: ['re', 're._casefix', 're._compiler', 're._constants', 're._parser']
+2026-11-08 09:05:58,003 DEBUG PyInstaller.utils.hooks: Collecting submodules for encodings
+2026-11-08 09:05:58,398 DEBUG PyInstaller.utils.hooks: collect_submodules - found submodules: ['encodings', 'encodings._win_cp_codecs', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+2026-11-08 09:05:58,400 DEBUG PyInstaller.utils.hooks: Collecting submodules for collections
+2026-11-08 09:05:58,758 DEBUG PyInstaller.utils.hooks: collect_submodules - found submodules: ['collections']
+2026-11-08 09:05:59,793 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:05:59,794 DEBUG PyInstaller.utils.hooks: Collecting submodules for encodings
+2026-11-08 09:06:00,144 DEBUG PyInstaller.utils.hooks: collect_submodules - found submodules: ['encodings', 'encodings._win_cp_codecs', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+2026-11-08 09:06:00,320 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:00,551 DEBUG PyInstaller.depend.analysis: Suppressing import of 'argparse' from module 'pickle' due to excluded import 'argparse' specified in a hook for 'pickle' (or its parent package(s)).
+2026-11-08 09:06:00,976 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-math.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:01,263 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:01,290 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:01,292 DEBUG PyInstaller.depend.analysis: Suppressing import of 'doctest' from module 'heapq' due to excluded import 'doctest' specified in a hook for 'heapq' (or its parent package(s)).
+2026-11-08 09:06:06,475 INFO PyInstaller.depend.analysis: Caching module dependency graph...
+2026-11-08 09:06:06,517 INFO PyInstaller.building.build_main: Analyzing C:\Dev\Coding\deltapatcher\deltapatcher\applier\applier_gui.py
+2026-11-08 09:06:06,527 INFO PyInstaller.depend.analysis: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+2026-11-08 09:06:06,530 INFO PyInstaller.utils.hooks.tcl_tk: TclTkInfo: initializing cached Tcl/Tk info...
+2026-11-08 09:06:07,076 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:07,934 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:07,937 DEBUG PyInstaller.depend.analysis: Suppressing import of 'test' from module 'multiprocessing.util' due to excluded import 'test' specified in a hook for 'multiprocessing.util' (or its parent package(s)).
+2026-11-08 09:06:08,143 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:08,727 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:08,730 DEBUG PyInstaller.depend.analysis: Suppressing import of '_osx_support' from module 'sysconfig' due to excluded import '_osx_support' specified in a hook for 'sysconfig' (or its parent package(s)).
+2026-11-08 09:06:08,744 DEBUG PyInstaller.depend.analysis: Suppressing import of '_osx_support' from module 'sysconfig' due to excluded import '_osx_support' specified in a hook for 'sysconfig' (or its parent package(s)).
+2026-11-08 09:06:08,746 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:09,696 INFO PyInstaller.depend.analysis: Processing module hooks (post-graph stage)...
+2026-11-08 09:06:09,842 INFO PyInstaller.depend.imphook: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-11-08 09:06:09,855 INFO PyInstaller.building.build_main: Performing binary vs. data reclassification (928 entries)
+2026-11-08 09:06:15,916 INFO PyInstaller.building.build_main: Looking for ctypes DLLs
+2026-11-08 09:06:15,917 DEBUG PyInstaller.building.build_main: Scanning multiprocessing.sharedctypes for ctypes-based references to shared libraries
+2026-11-08 09:06:15,923 INFO PyInstaller.depend.analysis: Analyzing run-time hooks ...
+2026-11-08 09:06:15,924 INFO PyInstaller.depend.analysis: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2026-11-08 09:06:15,936 INFO PyInstaller.depend.analysis: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2026-11-08 09:06:15,946 INFO PyInstaller.depend.analysis: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2026-11-08 09:06:15,959 INFO PyInstaller.depend.analysis: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2026-11-08 09:06:15,987 DEBUG PyInstaller.building.build_main: Module collection settings: {}
+2026-11-08 09:06:15,987 DEBUG PyInstaller.building.build_main: Target optimization level 0 matches run-time optimization level 0 - using modulegraph's code-object cache.
+2026-11-08 09:06:15,989 INFO PyInstaller.building.build_main: Creating base_library.zip...
+2026-11-08 09:06:16,007 INFO PyInstaller.building.build_main: Looking for dynamic libraries
+2026-11-08 09:06:16,402 INFO PyInstaller.building.build_main: Extra DLL search directories (AddDllDirectory): []
+2026-11-08 09:06:16,402 INFO PyInstaller.building.build_main: Extra DLL search directories (PATH): []
+2026-11-08 09:06:16,403 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,436 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\WINDOWS\\system32\\bcrypt.dll'
+2026-11-08 09:06:16,436 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\bcrypt.dll' due to global exclusion rules.
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,437 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-process-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-core-path-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VERSION.dll', resolved path: 'C:\\WINDOWS\\system32\\VERSION.dll'
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\VERSION.dll' due to global exclusion rules.
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,438 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,439 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-conio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,439 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,439 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' as 'VCRUNTIME140.dll'.
+2026-11-08 09:06:16,439 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,439 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\select.pyd'
+2026-11-08 09:06:16,445 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,445 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,445 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,445 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,446 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,446 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' as 'python314.dll'.
+2026-11-08 09:06:16,446 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,447 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,447 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,447 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zstd.pyd'
+2026-11-08 09:06:16,455 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,455 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,455 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,455 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,455 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,456 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,456 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,456 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,456 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,457 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,457 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_lzma.pyd'
+2026-11-08 09:06:16,462 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,463 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,463 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,463 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,463 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,463 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,464 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,464 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,464 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_bz2.pyd'
+2026-11-08 09:06:16,470 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,470 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,471 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,471 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,471 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,472 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,472 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,472 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,472 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,472 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_decimal.pyd'
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,508 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,509 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,509 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,509 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,509 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,509 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,510 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,510 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,510 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_hashlib.pyd'
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,516 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,517 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,517 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll'
+2026-11-08 09:06:16,517 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll' as 'libcrypto-3.dll'.
+2026-11-08 09:06:16,517 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,517 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_socket.pyd'
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'IPHLPAPI.DLL', resolved path: 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL'
+2026-11-08 09:06:16,527 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\IPHLPAPI.DLL' due to global exclusion rules.
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'RPCRT4.dll', resolved path: 'C:\\WINDOWS\\system32\\RPCRT4.dll'
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\RPCRT4.dll' due to global exclusion rules.
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,528 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,529 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,529 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\unicodedata.pyd'
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,559 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,560 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,560 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,560 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_multiprocessing.pyd'
+2026-11-08 09:06:16,587 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,587 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,587 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,587 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,587 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,588 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,588 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,588 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,588 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,588 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\pyexpat.pyd'
+2026-11-08 09:06:16,597 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,597 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,597 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,597 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,598 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,598 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,598 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,598 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,599 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,599 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,599 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,599 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,599 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ssl.pyd'
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,609 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'CRYPT32.dll', resolved path: 'C:\\WINDOWS\\system32\\CRYPT32.dll'
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\CRYPT32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll'
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll' due to prior processing.
+2026-11-08 09:06:16,610 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,611 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'libssl-3.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll'
+2026-11-08 09:06:16,611 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll' as 'libssl-3.dll'.
+2026-11-08 09:06:16,611 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ctypes.pyd'
+2026-11-08 09:06:16,622 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,622 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,622 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'OLEAUT32.dll', resolved path: 'C:\\WINDOWS\\system32\\OLEAUT32.dll'
+2026-11-08 09:06:16,623 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\OLEAUT32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,623 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,623 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'libffi-8.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll'
+2026-11-08 09:06:16,623 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll' as 'libffi-8.dll'.
+2026-11-08 09:06:16,624 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,624 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,624 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,624 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,625 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,625 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ole32.dll', resolved path: 'C:\\WINDOWS\\system32\\ole32.dll'
+2026-11-08 09:06:16,625 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ole32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,625 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,625 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_queue.pyd'
+2026-11-08 09:06:16,630 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,631 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,631 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,631 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,631 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,631 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,632 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,632 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\bsdiff4\\core.cp314-win_amd64.pyd'
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,637 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,638 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,638 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_overlapped.pyd'
+2026-11-08 09:06:16,644 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,645 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,645 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,645 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,645 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,645 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,646 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,646 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,646 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,646 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,646 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_asyncio.pyd'
+2026-11-08 09:06:16,651 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,652 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,652 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,652 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,652 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,652 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,653 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,653 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_tkinter.pyd'
+2026-11-08 09:06:16,662 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'tk86t.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tk86t.dll'
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tk86t.dll' as 'tk86t.dll'.
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,663 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'python314.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll'
+2026-11-08 09:06:16,664 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll' due to prior processing.
+2026-11-08 09:06:16,664 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,664 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,664 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'tcl86t.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tcl86t.dll'
+2026-11-08 09:06:16,665 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tcl86t.dll' as 'tcl86t.dll'.
+2026-11-08 09:06:16,665 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,665 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,672 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,672 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,672 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,673 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,673 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,673 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,673 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,673 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll'
+2026-11-08 09:06:16,719 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\WINDOWS\\system32\\bcrypt.dll'
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\bcrypt.dll' due to global exclusion rules.
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,720 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,721 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,722 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll'
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,736 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,737 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,737 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,737 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,737 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll'
+2026-11-08 09:06:16,737 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll' due to prior processing.
+2026-11-08 09:06:16,738 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,738 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,738 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll'
+2026-11-08 09:06:16,742 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,742 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,742 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,742 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,742 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,743 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tk86t.dll'
+2026-11-08 09:06:16,765 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+2026-11-08 09:06:16,765 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,766 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'COMDLG32.dll', resolved path: 'C:\\WINDOWS\\system32\\COMDLG32.dll'
+2026-11-08 09:06:16,766 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\COMDLG32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,766 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'COMCTL32.dll', resolved path: 'C:\\WINDOWS\\system32\\COMCTL32.dll'
+2026-11-08 09:06:16,767 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\COMCTL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,767 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,767 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,767 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,767 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'IMM32.dll', resolved path: 'C:\\WINDOWS\\system32\\IMM32.dll'
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\IMM32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'SHELL32.dll', resolved path: 'C:\\WINDOWS\\system32\\SHELL32.dll'
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\SHELL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,768 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ole32.dll', resolved path: 'C:\\WINDOWS\\system32\\ole32.dll'
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ole32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'GDI32.dll', resolved path: 'C:\\WINDOWS\\system32\\GDI32.dll'
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\GDI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,769 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\tcl86t.dll'
+2026-11-08 09:06:16,789 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\ADVAPI32.dll'
+2026-11-08 09:06:16,789 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\WINDOWS\\system32\\WS2_32.dll'
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'NETAPI32.dll', resolved path: 'C:\\WINDOWS\\system32\\NETAPI32.dll'
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\NETAPI32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,790 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'USERENV.dll', resolved path: 'C:\\WINDOWS\\system32\\USERENV.dll'
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\USERENV.dll' due to global exclusion rules.
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll'
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll' due to prior processing.
+2026-11-08 09:06:16,791 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\WINDOWS\\system32\\USER32.dll'
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\USER32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'zlib1.dll', resolved path: 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\zlib1.dll'
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Collecting dependency 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\zlib1.dll' as 'zlib1.dll'.
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-11-08 09:06:16,792 DEBUG PyInstaller.depend.bindepend: Analyzing binary 'C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\zlib1.dll'
+2026-11-08 09:06:16,796 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'msvcrt.dll', resolved path: 'C:\\WINDOWS\\system32\\msvcrt.dll'
+2026-11-08 09:06:16,796 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\msvcrt.dll' due to global exclusion rules.
+2026-11-08 09:06:16,796 DEBUG PyInstaller.depend.bindepend: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\WINDOWS\\system32\\KERNEL32.dll'
+2026-11-08 09:06:16,796 DEBUG PyInstaller.depend.bindepend: Skipping dependency 'C:\\WINDOWS\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-11-08 09:06:16,855 INFO PyInstaller.building.build_main: Warnings written to C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build\lc-patch\warn-lc-patch.txt
+2026-11-08 09:06:16,878 INFO PyInstaller.building.build_main: Graph cross-reference written to C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build\lc-patch\xref-lc-patch.html
+2026-11-08 09:06:16,890 INFO PyInstaller.building.build_main: Graph drawing written to C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build\lc-patch\graph-lc-patch.dot
+2026-11-08 09:06:16,960 INFO PyInstaller.building.datastruct: checking PYZ
+2026-11-08 09:06:16,960 INFO PyInstaller.building.datastruct: Building PYZ because PYZ-00.toc is non existent
+2026-11-08 09:06:16,960 INFO PyInstaller.building.api: Building PYZ (ZlibArchive) C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build\lc-patch\PYZ-00.pyz
+2026-11-08 09:06:17,108 INFO PyInstaller.building.api: Building PYZ (ZlibArchive) C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\build\lc-patch\PYZ-00.pyz completed successfully.
+2026-11-08 09:06:17,135 INFO PyInstaller.building.datastruct: checking PKG
+2026-11-08 09:06:17,135 INFO PyInstaller.building.datastruct: Building PKG because PKG-00.toc is non existent
+2026-11-08 09:06:17,135 INFO PyInstaller.building.api: Building PKG (CArchive) lc-patch.pkg
+2026-11-08 09:06:17,360 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+2026-11-08 09:06:17,369 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_inspect.py
+2026-11-08 09:06:17,370 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py
+2026-11-08 09:06:17,371 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_multiprocessing.py
+2026-11-08 09:06:17,372 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth__tkinter.py
+2026-11-08 09:06:17,372 DEBUG PyInstaller.building.utils: Compiling python script/module file C:\Dev\Coding\deltapatcher\deltapatcher\applier\applier_gui.py
+2026-11-08 09:06:27,763 INFO PyInstaller.building.api: Building PKG (CArchive) lc-patch.pkg completed successfully.
+2026-11-08 09:06:27,780 INFO PyInstaller.building.api: Bootloader C:\Users\Psycho\AppData\Local\Programs\Python\Python314\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+2026-11-08 09:06:27,780 INFO PyInstaller.building.datastruct: checking EXE
+2026-11-08 09:06:27,780 INFO PyInstaller.building.datastruct: Building EXE because EXE-00.toc is non existent
+2026-11-08 09:06:27,780 INFO PyInstaller.building.api: Building EXE from EXE-00.toc
+2026-11-08 09:06:27,781 INFO PyInstaller.building.api: Copying bootloader EXE to C:\Users\Psycho\AppData\Local\Temp\deltapatcher_build_mjzvc3yv\dist\lc-patch.exe
+2026-11-08 09:06:27,864 INFO PyInstaller.building.api: Copying icon to EXE
+2026-11-08 09:06:27,871 DEBUG PyInstaller.utils.win32.icon: Copying icons from ['C:\\Users\\Psycho\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico']
+2026-11-08 09:06:27,907 DEBUG PyInstaller.utils.win32.icon: Writing RT_GROUP_ICON 1 resource with 104 bytes
+2026-11-08 09:06:27,907 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 1 resource with 3752 bytes
+2026-11-08 09:06:27,907 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 2 resource with 2216 bytes
+2026-11-08 09:06:27,907 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 3 resource with 1384 bytes
+2026-11-08 09:06:27,907 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 4 resource with 38188 bytes
+2026-11-08 09:06:27,908 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 5 resource with 9640 bytes
+2026-11-08 09:06:27,908 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 6 resource with 4264 bytes
+2026-11-08 09:06:27,908 DEBUG PyInstaller.utils.win32.icon: Writing RT_ICON 7 resource with 1128 bytes
+2026-11-08 09:06:27,910 INFO PyInstaller.building.api: Copying 0 resources to EXE
+2026-11-08 09:06:27,910 INFO PyInstaller.building.api: Embedding manifest in EXE
+2026-11-08 09:06:27,949 INFO PyInstaller.building.api: Appending PKG archive to EXE
+2026-11-08 09:06:28,701 INFO PyInstaller.building.api: Fixing EXE headers

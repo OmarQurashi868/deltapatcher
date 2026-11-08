@@ -18,6 +18,7 @@ from ..core import patch_format
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 APPLIER_SCRIPT = PROJECT_ROOT / "deltapatcher" / "applier" / "applier_gui.py"
+XDELTA3_EXE = PROJECT_ROOT / "xdelta3.exe"
 
 log = logging.getLogger(__name__)
 
@@ -59,6 +60,7 @@ def build_applier_exe(
             "--specpath", str(tmp_path),
             "--paths", str(PROJECT_ROOT),
             "--add-data", f"{patch_zip_path}{os.pathsep}.",
+            "--add-data", f"{XDELTA3_EXE}{os.pathsep}.",
             "-y",
         ]
 

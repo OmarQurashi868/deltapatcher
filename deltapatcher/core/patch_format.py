@@ -15,8 +15,8 @@ manifest.json shape:
     }
 }
 
-For action "modify": diffs/<relpath> holds a bsdiff4 patch (source -> target).
-For action "modify_chunked": diffs/<relpath>.chunk001, .chunk002, ... hold per-chunk bsdiff4 patches.
+For action "modify": diffs/<relpath> holds an xdelta3 patch (source -> target).
+For action "modify_chunked": diffs/<relpath>.chunk001, .chunk002, ... hold per-chunk xdelta3 patches.
 For action "add": adds/<relpath> holds the full target file bytes.
 For action "delete"/"none": no blob is stored.
 """
@@ -28,9 +28,7 @@ import logging
 import zipfile
 from pathlib import Path
 
-import bsdiff4
-
-from . import scan
+from . import scan, xdelta
 
 MANIFEST_NAME = "manifest.json"
 DIFF_PREFIX = "diffs/"
@@ -71,7 +69,7 @@ def _chunked_diff(src_path: Path, tgt_path: Path, zf: zipfile.ZipFile, rel: str,
                 break
 
             log.debug("Diffing chunk %d/%d: %d -> %d bytes", chunk_idx + 1, num_chunks, len(src_chunk), len(tgt_chunk))
-            diff_bytes = bsdiff4.diff(src_chunk, tgt_chunk)
+            diff_bytes = xdelta.diff(src_chunk, tgt_chunk)
             chunk_name = f"{DIFF_PREFIX}{rel}{CHUNK_SUFFIX}{chunk_idx + 1:03d}"
             zf.writestr(chunk_name, diff_bytes)
             log.debug("Chunk %d diff: %d bytes", chunk_idx + 1, len(diff_bytes))
@@ -152,13 +150,13 @@ def build_patch_zip(
                             "num_chunks": num_chunks,
                         }
                     else:
-                        # Regular bsdiff
+                        # Regular xdelta
                         action = "modify"
                         src_bytes = src_path.read_bytes()
                         tgt_bytes = tgt_path.read_bytes()
-                        log.debug("Running bsdiff4.diff for %s", rel)
-                        diff_bytes = bsdiff4.diff(src_bytes, tgt_bytes)
-                        log.debug("bsdiff4.diff complete for %s: %d bytes", rel, len(diff_bytes))
+                        log.debug("Running xdelta.diff for %s", rel)
+                        diff_bytes = xdelta.diff(src_bytes, tgt_bytes)
+                        log.debug("xdelta.diff complete for %s: %d bytes", rel, len(diff_bytes))
                         zf.writestr(DIFF_PREFIX + rel, diff_bytes)
                         files_manifest[rel] = {
                             "action": action,

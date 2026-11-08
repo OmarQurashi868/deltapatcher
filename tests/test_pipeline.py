@@ -115,7 +115,7 @@ class PipelineTests(unittest.TestCase):
             for item in src_zf.infolist():
                 data = src_zf.read(item.filename)
                 if item.filename == "diffs/modified.txt":
-                    data = b"not a valid bsdiff4 patch at all"
+                    data = b"not a valid xdelta3 patch at all"
                 dst_zf.writestr(item, data)
 
         with self.assertRaises(Exception):
