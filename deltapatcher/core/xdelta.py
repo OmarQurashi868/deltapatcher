@@ -25,11 +25,13 @@ def _run_xdelta(args: list[str], input_data: bytes | None = None) -> bytes:
     """Run xdelta3.exe with given args, return stdout."""
     cmd = [str(_get_xdelta3_exe())] + args
     log.debug("Running: %s", " ".join(cmd))
+    creationflags = subprocess.CREATE_NO_WINDOW if sys.platform == "win32" else 0
     result = subprocess.run(
         cmd,
         input=input_data,
         capture_output=True,
         check=False,
+        creationflags=creationflags,
     )
     if result.returncode != 0:
         err = result.stderr.decode("utf-8", errors="replace") if result.stderr else "unknown error"
