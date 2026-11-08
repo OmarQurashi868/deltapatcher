@@ -1,0 +1,2 @@
+2026-11-08 06:13:25,544 INFO deltapatcher.creator.creator_gui: Starting patch build: source=C:\Games\Lethal Company old target=C:\Games\Lethal Company output=C:\Games\lc.exe
+2026-11-08 06:13:25,545 INFO deltapatcher.creator.build_applier: Building patch zip from C:\Games\Lethal Company old -> C:\Games\Lethal Company

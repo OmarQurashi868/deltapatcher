@@ -11,6 +11,7 @@ patch with backup-before-overwrite and automatic rollback on failure.
 """
 from __future__ import annotations
 
+import logging
 import sys
 import tempfile
 import threading
@@ -28,6 +29,21 @@ from deltapatcher.core import apply as core_apply
 from deltapatcher.core import patch_format
 
 MAX_LISTED_MISMATCHES = 50
+
+log = logging.getLogger(__name__)
+
+
+def _setup_logging() -> None:
+    log_file = Path(tempfile.gettempdir()) / "deltapatcher_applier.log"
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler(),
+        ],
+    )
+    log.info("Applier started, log file: %s", log_file)
 
 
 def _bundled_patch_path() -> Path:
@@ -47,12 +63,22 @@ class ApplierApp:
     def __init__(self) -> None:
         self.root = tk.Tk()
         self.root.title("Patcher")
-        self.root.geometry("380x140")
+        self.root.geometry("420x180")
         self.root.resizable(False, False)
 
         self.status_var = tk.StringVar(value="Preparing...")
-        tk.Label(self.root, textvariable=self.status_var, wraplength=340).pack(pady=20)
-        self.progress: ttk.Progressbar | None = None
+        tk.Label(self.root, textvariable=self.status_var, wraplength=380).pack(pady=(15, 5))
+
+        # Progress section
+        self.progress_frame = tk.Frame(self.root)
+        self.progress_frame.pack(fill="x", padx=20, pady=(0, 10))
+        self.progress_var = tk.DoubleVar(value=0.0)
+        self.progress = ttk.Progressbar(
+            self.progress_frame, mode="determinate", length=380, variable=self.progress_var, maximum=100
+        )
+        self.progress.pack(fill="x")
+        self.progress_file_var = tk.StringVar(value="")
+        tk.Label(self.progress_frame, textvariable=self.progress_file_var, wraplength=380, justify="left").pack(fill="x", pady=(4, 0))
 
         try:
             self.patch_zip_path = _bundled_patch_path()
@@ -74,39 +100,51 @@ class ApplierApp:
         self.start_patch()
 
     def start_patch(self) -> None:
-        self.status_var.set("Checking files...")
-        self._show_spinner()
+        self.status_var.set("Verifying files...")
+        self.progress_var.set(0.0)
+        self.progress_file_var.set("Starting verification...")
         threading.Thread(target=self._worker, daemon=True).start()
 
-    def _show_spinner(self) -> None:
-        self.progress = ttk.Progressbar(self.root, mode="indeterminate", length=280)
-        self.progress.pack(pady=10)
-        self.progress.start(12)
+    def _progress_callback(self, current_file: str, progress: float, total: int) -> None:
+        """Called from background thread to update progress."""
+        self.root.after(0, lambda: self._update_progress(current_file, progress, total))
 
-    def _hide_spinner(self) -> None:
-        if self.progress is not None:
-            self.progress.stop()
-            self.progress.destroy()
-            self.progress = None
+    def _update_progress(self, current_file: str, progress: float, total: int) -> None:
+        """Update progress bar and label on main thread."""
+        percent = int(progress * 100)
+        self.progress_var.set(percent)
+        if total > 0:
+            self.progress_file_var.set(f"[{percent}%] {current_file} ({int(progress * total)}/{total})")
+        else:
+            self.progress_file_var.set(f"[{percent}%] {current_file}")
 
     def _worker(self) -> None:
         try:
+            log.info("Starting patch apply: target_dir=%s", self.target_dir)
             files = self.manifest["files"]
-            mismatches = core_apply.verify(self.target_dir, files)
+
+            # Verify phase
+            self.root.after(0, lambda: self.status_var.set("Verifying files..."))
+            mismatches = core_apply.verify(self.target_dir, files, self._progress_callback)
             if mismatches:
+                log.warning("Mismatches found: %s", mismatches)
                 self.root.after(0, lambda: self._on_mismatch(mismatches))
                 return
 
-            self.root.after(0, lambda: self.status_var.set("Patching..."))
+            # Apply phase
+            self.root.after(0, lambda: self.status_var.set("Applying patch..."))
+            self.root.after(0, lambda: self.progress_var.set(0.0))
             backup_dir = Path(tempfile.mkdtemp(prefix="deltapatcher_backup_"))
-            core_apply.apply_patch(self.target_dir, self.patch_zip_path, files, backup_dir)
+            core_apply.apply_patch(self.target_dir, self.patch_zip_path, files, backup_dir, self._progress_callback)
+            log.info("Patch apply completed successfully")
             self.root.after(0, self._on_success)
-        except Exception as exc:
-            message = str(exc)
+        except BaseException as exc:
+            log.exception("Patch apply failed: %s", exc)
+            message = f"{type(exc).__name__}: {exc}"
             self.root.after(0, lambda: self._on_error(message))
 
     def _on_mismatch(self, mismatches: list[str]) -> None:
-        self._hide_spinner()
+        self.progress_file_var.set("Verification failed - mismatches found")
         self.root.withdraw()
         listing = "\n".join(mismatches[:MAX_LISTED_MISMATCHES])
         if len(mismatches) > MAX_LISTED_MISMATCHES:
@@ -119,19 +157,21 @@ class ApplierApp:
         self.root.destroy()
 
     def _on_success(self) -> None:
-        self._hide_spinner()
+        self.progress_var.set(100)
+        self.progress_file_var.set("Complete")
         self.root.withdraw()
         messagebox.showinfo("Done", "Patch applied successfully.")
         self.root.destroy()
 
     def _on_error(self, message: str) -> None:
-        self._hide_spinner()
+        self.progress_file_var.set("Error occurred")
         self.root.withdraw()
         messagebox.showerror("Patch failed", f"Patching failed and was rolled back:\n\n{message}")
         self.root.destroy()
 
 
 def main() -> None:
+    _setup_logging()
     ApplierApp()
 
 

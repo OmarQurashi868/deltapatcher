@@ -12,6 +12,7 @@ backups are discarded.
 """
 from __future__ import annotations
 
+import logging
 import os
 import shutil
 import stat
@@ -21,6 +22,10 @@ from pathlib import Path
 import bsdiff4
 
 from . import patch_format, scan
+
+MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024  # 2 GB limit for in-memory bsdiff ops
+
+log = logging.getLogger(__name__)
 
 
 def _ensure_writable(path: Path) -> None:
@@ -44,12 +49,24 @@ def _rmtree_best_effort(path: Path) -> None:
     shutil.rmtree(path, onexc=_remove_readonly_and_retry)
 
 
-def verify(disk_root: Path, manifest_files: dict) -> list[str]:
-    """Return the sorted list of relpaths that are neither source nor target version."""
+def verify(
+    disk_root: Path, manifest_files: dict, progress_callback: callable | None = None
+) -> list[str]:
+    """Return the sorted list of relpaths that are neither source nor target version.
+
+    Args:
+        disk_root: Root directory to verify
+        manifest_files: File manifest from patch
+        progress_callback: Optional callback(current_file: str, progress: float, total: int)
+    """
     disk_root = Path(disk_root)
     mismatches: list[str] = []
+    files_to_check = [(rel, info) for rel, info in manifest_files.items() if info["action"] != "none"]
+    total = len(files_to_check)
 
-    for rel, info in manifest_files.items():
+    for i, (rel, info) in enumerate(files_to_check):
+        if progress_callback:
+            progress_callback(rel, i / total if total > 0 else 1.0, total)
         action = info["action"]
         source_hash = info["source_hash"]
         target_hash = info["target_hash"]
@@ -73,6 +90,8 @@ def verify(disk_root: Path, manifest_files: dict) -> list[str]:
             if exists and scan.hash_file(disk_path) != source_hash:
                 mismatches.append(rel)
 
+    if progress_callback:
+        progress_callback("Verification complete", 1.0, total)
     return sorted(mismatches)
 
 
@@ -95,20 +114,45 @@ def _rollback(disk_root: Path, backup_dir: Path, performed: list[tuple[str, str]
             continue
 
 
-def apply_patch(disk_root: Path, patch_zip_path: Path, manifest_files: dict, backup_dir: Path) -> None:
+def _write_file_streaming(zf: zipfile.ZipFile, arcname: str, dest_path: Path) -> None:
+    """Stream a file from zip to disk without loading entirely into memory."""
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+    with zf.open(arcname) as src, open(dest_path, "wb") as dst:
+        shutil.copyfileobj(src, dst)
+
+
+def apply_patch(
+    disk_root: Path,
+    patch_zip_path: Path,
+    manifest_files: dict,
+    backup_dir: Path,
+    progress_callback: callable | None = None,
+) -> None:
     """Apply all actions in manifest_files against disk_root.
 
     Raises the original exception on failure, after rolling back every
     change made during this call. Cleans up backup_dir in all cases.
+
+    Args:
+        disk_root: Root directory to patch
+        patch_zip_path: Path to patch.zip
+        manifest_files: File manifest from patch
+        backup_dir: Directory for backup files
+        progress_callback: Optional callback(current_file: str, progress: float, total: int)
     """
     disk_root = Path(disk_root)
     backup_dir = Path(backup_dir)
     backup_dir.mkdir(parents=True, exist_ok=True)
     performed: list[tuple[str, str]] = []
 
+    files_to_patch = [(rel, info) for rel, info in manifest_files.items() if info["action"] != "none"]
+    total = len(files_to_patch)
+
     try:
         with zipfile.ZipFile(patch_zip_path) as zf:
-            for rel, info in manifest_files.items():
+            for i, (rel, info) in enumerate(files_to_patch):
+                if progress_callback:
+                    progress_callback(rel, i / total if total > 0 else 1.0, total)
                 action = info["action"]
                 if action == "none":
                     continue
@@ -128,9 +172,11 @@ def apply_patch(disk_root: Path, patch_zip_path: Path, manifest_files: dict, bac
                 elif action == "add":
                     if disk_path.is_file() and scan.hash_file(disk_path) == info["target_hash"]:
                         continue
-                    disk_path.parent.mkdir(parents=True, exist_ok=True)
-                    _ensure_writable(disk_path)
-                    disk_path.write_bytes(patch_format.read_add_blob(zf, rel))
+                    add_size = zf.getinfo(patch_format.ADD_PREFIX + rel).file_size
+                    if add_size > MAX_FILE_SIZE:
+                        _write_file_streaming(zf, patch_format.ADD_PREFIX + rel, disk_path)
+                    else:
+                        disk_path.write_bytes(patch_format.read_add_blob(zf, rel))
                     performed.append((rel, "add"))
 
                 elif action == "modify":
@@ -142,9 +188,18 @@ def apply_patch(disk_root: Path, patch_zip_path: Path, manifest_files: dict, bac
                     shutil.copy2(disk_path, backup_path)
                     performed.append((rel, "modify"))
                     diff_bytes = patch_format.read_diff_blob(zf, rel)
+                    src_size = backup_path.stat().st_size
+                    if src_size > MAX_FILE_SIZE:
+                        raise MemoryError(
+                            f"File too large for in-memory patch: {rel} "
+                            f"({src_size:,} bytes, max {MAX_FILE_SIZE:,})"
+                        )
                     src_bytes = backup_path.read_bytes()
                     new_bytes = bsdiff4.patch(src_bytes, diff_bytes)
                     disk_path.write_bytes(new_bytes)
+
+        if progress_callback:
+            progress_callback("Patch applied successfully", 1.0, total)
     except Exception:
         _rollback(disk_root, backup_dir, performed)
         raise

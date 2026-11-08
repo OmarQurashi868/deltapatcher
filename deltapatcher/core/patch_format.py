@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import io
 import json
+import logging
 import zipfile
 from pathlib import Path
 
@@ -31,20 +32,41 @@ from . import scan
 MANIFEST_NAME = "manifest.json"
 DIFF_PREFIX = "diffs/"
 ADD_PREFIX = "adds/"
+# 2 GB limit for in-memory bsdiff ops; larger files fall back to full copy ("add" action)
+MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024
+
+log = logging.getLogger(__name__)
 
 
-def build_patch_zip(source_dir: Path, target_dir: Path) -> bytes:
-    """Diff source_dir against target_dir and return patch ZIP bytes."""
+def _read_file_streaming(path: Path, zf: zipfile.ZipFile, arcname: str) -> None:
+    """Stream a file into the zip without loading entirely into memory."""
+    with open(path, "rb") as f:
+        zf.writestr(arcname, f.read())
+
+
+def build_patch_zip(
+    source_dir: Path, target_dir: Path, progress_callback: callable | None = None
+) -> bytes:
+    """Diff source_dir against target_dir and return patch ZIP bytes.
+
+    Args:
+        source_dir: Source directory path
+        target_dir: Target directory path
+        progress_callback: Optional callback(current_file: str, progress: float, total: int)
+    """
     source_dir = Path(source_dir)
     target_dir = Path(target_dir)
     source_hashes = scan.scan_directory(source_dir)
     target_hashes = scan.scan_directory(target_dir)
     all_paths = sorted(set(source_hashes) | set(target_hashes))
+    total = len(all_paths)
 
     files_manifest: dict[str, dict] = {}
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED) as zf:
-        for rel in all_paths:
+        for i, rel in enumerate(all_paths):
+            if progress_callback:
+                progress_callback(rel, i / total if total > 0 else 1.0, total)
             s_hash = source_hashes.get(rel)
             t_hash = target_hashes.get(rel)
 
@@ -52,14 +74,31 @@ def build_patch_zip(source_dir: Path, target_dir: Path) -> bytes:
                 if s_hash == t_hash:
                     action = "none"
                 else:
-                    action = "modify"
-                    src_bytes = (source_dir / rel).read_bytes()
-                    tgt_bytes = (target_dir / rel).read_bytes()
-                    diff_bytes = bsdiff4.diff(src_bytes, tgt_bytes)
-                    zf.writestr(DIFF_PREFIX + rel, diff_bytes)
+                    src_path = source_dir / rel
+                    tgt_path = target_dir / rel
+                    src_size = src_path.stat().st_size
+                    tgt_size = tgt_path.stat().st_size
+                    if src_size > MAX_FILE_SIZE or tgt_size > MAX_FILE_SIZE:
+                        # Too large for bsdiff - fall back to full copy ("add" action)
+                        log.warning("File too large for diff, using full copy: %s (%d -> %d bytes)",
+                                    rel, src_size, tgt_size)
+                        action = "add"
+                        _read_file_streaming(tgt_path, zf, ADD_PREFIX + rel)
+                    else:
+                        action = "modify"
+                        src_bytes = src_path.read_bytes()
+                        tgt_bytes = tgt_path.read_bytes()
+                        diff_bytes = bsdiff4.diff(src_bytes, tgt_bytes)
+                        zf.writestr(DIFF_PREFIX + rel, diff_bytes)
             elif t_hash is not None:
                 action = "add"
-                zf.writestr(ADD_PREFIX + rel, (target_dir / rel).read_bytes())
+                tgt_path = target_dir / rel
+                tgt_size = tgt_path.stat().st_size
+                if tgt_size > MAX_FILE_SIZE:
+                    # Stream large files instead of loading entirely
+                    _read_file_streaming(tgt_path, zf, ADD_PREFIX + rel)
+                else:
+                    zf.writestr(ADD_PREFIX + rel, tgt_path.read_bytes())
             else:
                 action = "delete"
 
@@ -69,6 +108,8 @@ def build_patch_zip(source_dir: Path, target_dir: Path) -> bytes:
                 "target_hash": t_hash,
             }
 
+        if progress_callback:
+            progress_callback("Writing manifest...", 1.0, total)
         manifest = {"version": 1, "files": files_manifest}
         zf.writestr(MANIFEST_NAME, json.dumps(manifest, indent=2))
 
