@@ -32,7 +32,9 @@ from . import scan
 MANIFEST_NAME = "manifest.json"
 DIFF_PREFIX = "diffs/"
 ADD_PREFIX = "adds/"
-# 2 GB limit for in-memory bsdiff ops; larger files fall back to full copy ("add" action)
+# bsdiff4 needs ~3x file size in RAM; 100 MB limit avoids OOM on large game assets
+MAX_DIFF_SIZE = 100 * 1024 * 1024
+# Streaming add/copy limit (2 GB)
 MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024
 
 log = logging.getLogger(__name__)
@@ -84,7 +86,7 @@ def build_patch_zip(
                     src_size = src_path.stat().st_size
                     tgt_size = tgt_path.stat().st_size
                     log.debug("Diffing: %s (%d -> %d bytes)", rel, src_size, tgt_size)
-                    if src_size > MAX_FILE_SIZE or tgt_size > MAX_FILE_SIZE:
+                    if src_size > MAX_DIFF_SIZE or tgt_size > MAX_DIFF_SIZE:
                         # Too large for bsdiff - fall back to full copy ("add" action)
                         log.warning("File too large for diff, using full copy: %s (%d -> %d bytes)",
                                     rel, src_size, tgt_size)

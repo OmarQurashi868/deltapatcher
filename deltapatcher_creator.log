@@ -1,2 +1,655 @@
-2026-11-08 07:30:18,793 INFO deltapatcher.creator.creator_gui: Starting patch build: source=C:\Games\Lethal Company old target=C:\Games\Lethal Company output=C:\Games\lc.exe
-2026-11-08 07:30:18,793 INFO deltapatcher.creator.build_applier: Building patch zip from C:\Games\Lethal Company old -> C:\Games\Lethal Company
+2026-11-08 08:45:25,486 INFO deltapatcher.creator.creator_gui: Starting patch build: source=C:\Games\Lethal Company old target=C:\Games\Lethal Company output=C:\Games\lc-patch.exe
+2026-11-08 08:45:25,487 INFO deltapatcher.creator.build_applier: Building patch zip from C:\Games\Lethal Company old -> C:\Games\Lethal Company
+2026-11-08 08:45:25,487 INFO deltapatcher.core.patch_format: Scanning source directory: C:\Games\Lethal Company old
+2026-11-08 08:45:29,117 INFO deltapatcher.core.patch_format: Scanned 454 files from source
+2026-11-08 08:45:29,117 INFO deltapatcher.core.patch_format: Scanning target directory: C:\Games\Lethal Company
+2026-11-08 08:45:33,965 INFO deltapatcher.core.patch_format: Scanned 477 files from target
+2026-11-08 08:45:33,965 INFO deltapatcher.core.patch_format: Total unique paths to process: 477
+2026-11-08 08:45:33,982 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company.exe (666624 -> 666624 bytes)
+2026-11-08 08:45:33,983 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company.exe
+2026-11-08 08:45:34,214 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company.exe: 43190 bytes
+2026-11-08 08:45:34,216 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll (392192 -> 392192 bytes)
+2026-11-08 08:45:34,217 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll
+2026-11-08 08:45:34,255 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Assembly-CSharp-firstpass.dll: 209 bytes
+2026-11-08 08:45:34,256 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Assembly-CSharp.dll (1816576 -> 1990144 bytes)
+2026-11-08 08:45:34,258 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Assembly-CSharp.dll
+2026-11-08 08:45:34,865 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Assembly-CSharp.dll: 481035 bytes
+2026-11-08 08:45:34,877 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/ClientNetworkTransform.dll (6144 -> 6144 bytes)
+2026-11-08 08:45:34,878 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/ClientNetworkTransform.dll
+2026-11-08 08:45:34,879 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/ClientNetworkTransform.dll: 459 bytes
+2026-11-08 08:45:34,880 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/DissonanceVoip.dll (297472 -> 297472 bytes)
+2026-11-08 08:45:34,881 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/DissonanceVoip.dll
+2026-11-08 08:45:34,911 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/DissonanceVoip.dll: 405 bytes
+2026-11-08 08:45:34,912 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.Integration.ASPP.dll (4096 bytes)
+2026-11-08 08:45:34,913 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.Integration.UnityNav.dll (21504 bytes)
+2026-11-08 08:45:34,914 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/DunGen.dll (191488 bytes)
+2026-11-08 08:45:34,918 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/EasyTextEffects.dll (52736 bytes)
+2026-11-08 08:45:34,920 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll (14336 -> 14336 bytes)
+2026-11-08 08:45:34,920 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll
+2026-11-08 08:45:34,922 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Facepunch Transport for Netcode for GameObjects.dll: 381 bytes
+2026-11-08 08:45:34,924 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Mono.Security.dll (241152 -> 241152 bytes)
+2026-11-08 08:45:34,924 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Mono.Security.dll
+2026-11-08 08:45:34,949 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Mono.Security.dll: 483 bytes
+2026-11-08 08:45:34,950 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.ComponentModel.Composition.dll (257024 -> 257024 bytes)
+2026-11-08 08:45:34,951 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.ComponentModel.Composition.dll
+2026-11-08 08:45:34,975 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.ComponentModel.Composition.dll: 204 bytes
+2026-11-08 08:45:34,976 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Configuration.dll (124928 -> 124928 bytes)
+2026-11-08 08:45:34,976 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Configuration.dll
+2026-11-08 08:45:34,988 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Configuration.dll: 198 bytes
+2026-11-08 08:45:34,989 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Core.dll (1113088 -> 1113088 bytes)
+2026-11-08 08:45:34,990 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Core.dll
+2026-11-08 08:45:35,117 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Core.dll: 203 bytes
+2026-11-08 08:45:35,118 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll (29696 -> 29696 bytes)
+2026-11-08 08:45:35,118 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll
+2026-11-08 08:45:35,121 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Data.DataSetExtensions.dll: 189 bytes
+2026-11-08 08:45:35,122 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Data.dll (2118656 -> 2125312 bytes)
+2026-11-08 08:45:35,123 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Data.dll
+2026-11-08 08:45:35,711 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Data.dll: 388398 bytes
+2026-11-08 08:45:35,722 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Drawing.dll (489984 -> 489984 bytes)
+2026-11-08 08:45:35,723 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Drawing.dll
+2026-11-08 08:45:35,770 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Drawing.dll: 200 bytes
+2026-11-08 08:45:35,771 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.EnterpriseServices.dll (44544 -> 44544 bytes)
+2026-11-08 08:45:35,772 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.EnterpriseServices.dll
+2026-11-08 08:45:35,775 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.EnterpriseServices.dll: 197 bytes
+2026-11-08 08:45:35,776 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll (18432 -> 18432 bytes)
+2026-11-08 08:45:35,776 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll
+2026-11-08 08:45:35,778 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.IO.Compression.FileSystem.dll: 196 bytes
+2026-11-08 08:45:35,779 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.IO.Compression.dll (114688 -> 114688 bytes)
+2026-11-08 08:45:35,779 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.IO.Compression.dll
+2026-11-08 08:45:35,789 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.IO.Compression.dll: 198 bytes
+2026-11-08 08:45:35,789 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Net.Http.dll (121344 -> 122880 bytes)
+2026-11-08 08:45:35,790 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Net.Http.dll
+2026-11-08 08:45:35,812 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Net.Http.dll: 25989 bytes
+2026-11-08 08:45:35,814 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Numerics.dll (119296 -> 119296 bytes)
+2026-11-08 08:45:35,814 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Numerics.dll
+2026-11-08 08:45:35,825 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Numerics.dll: 194 bytes
+2026-11-08 08:45:35,825 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Runtime.Serialization.dll (934400 -> 934400 bytes)
+2026-11-08 08:45:35,826 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Runtime.Serialization.dll
+2026-11-08 08:45:35,934 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Runtime.Serialization.dll: 206 bytes
+2026-11-08 08:45:35,935 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Security.dll (320000 -> 320000 bytes)
+2026-11-08 08:45:35,936 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Security.dll
+2026-11-08 08:45:35,967 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Security.dll: 202 bytes
+2026-11-08 08:45:35,967 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.ServiceModel.Internals.dll (215040 -> 215040 bytes)
+2026-11-08 08:45:35,968 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.ServiceModel.Internals.dll
+2026-11-08 08:45:35,987 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.ServiceModel.Internals.dll: 459 bytes
+2026-11-08 08:45:35,988 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Transactions.dll (35328 -> 35328 bytes)
+2026-11-08 08:45:35,989 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Transactions.dll
+2026-11-08 08:45:35,992 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Transactions.dll: 196 bytes
+2026-11-08 08:45:35,992 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Xml.Linq.dll (136704 -> 136704 bytes)
+2026-11-08 08:45:35,992 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Xml.Linq.dll
+2026-11-08 08:45:36,004 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Xml.Linq.dll: 201 bytes
+2026-11-08 08:45:36,005 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.Xml.dll (3160064 -> 3160064 bytes)
+2026-11-08 08:45:36,008 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.Xml.dll
+2026-11-08 08:45:36,453 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.Xml.dll: 206 bytes
+2026-11-08 08:45:36,454 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/System.dll (2637824 -> 2639872 bytes)
+2026-11-08 08:45:36,457 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/System.dll
+2026-11-08 08:45:37,177 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/System.dll: 386288 bytes
+2026-11-08 08:45:37,188 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.AI.Navigation.dll (20480 -> 19968 bytes)
+2026-11-08 08:45:37,189 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.AI.Navigation.dll
+2026-11-08 08:45:37,192 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.AI.Navigation.dll: 1348 bytes
+2026-11-08 08:45:37,193 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll (6144 -> 6144 bytes)
+2026-11-08 08:45:37,193 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll
+2026-11-08 08:45:37,194 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll: 248 bytes
+2026-11-08 08:45:37,194 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Animation.Rigging.dll (113152 -> 113152 bytes)
+2026-11-08 08:45:37,195 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Animation.Rigging.dll
+2026-11-08 08:45:37,204 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Animation.Rigging.dll: 266 bytes
+2026-11-08 08:45:37,206 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Burst.dll (316928 -> 317440 bytes)
+2026-11-08 08:45:37,206 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Burst.dll
+2026-11-08 08:45:37,271 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Burst.dll: 9782 bytes
+2026-11-08 08:45:37,272 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Collections.dll (389632 -> 389632 bytes)
+2026-11-08 08:45:37,273 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Collections.dll
+2026-11-08 08:45:37,323 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Collections.dll: 884 bytes
+2026-11-08 08:45:37,324 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll (4096 -> 4096 bytes)
+2026-11-08 08:45:37,324 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll
+2026-11-08 08:45:37,325 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.InputSystem.ForUI.dll: 257 bytes
+2026-11-08 08:45:37,325 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.InputSystem.dll (1102336 -> 1128960 bytes)
+2026-11-08 08:45:37,327 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.InputSystem.dll
+2026-11-08 08:45:37,585 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.InputSystem.dll: 204201 bytes
+2026-11-08 08:45:37,592 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Jobs.dll (4096 -> 4096 bytes)
+2026-11-08 08:45:37,593 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Jobs.dll
+2026-11-08 08:45:37,593 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Jobs.dll: 256 bytes
+2026-11-08 08:45:37,594 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Mathematics.dll (741376 -> 741376 bytes)
+2026-11-08 08:45:37,595 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Mathematics.dll
+2026-11-08 08:45:37,668 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Mathematics.dll: 265 bytes
+2026-11-08 08:45:37,668 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll (18432 -> 18432 bytes)
+2026-11-08 08:45:37,669 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll
+2026-11-08 08:45:37,671 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.Common.dll: 257 bytes
+2026-11-08 08:45:37,672 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll (20992 -> 20992 bytes)
+2026-11-08 08:45:37,672 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll
+2026-11-08 08:45:37,674 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll: 209 bytes
+2026-11-08 08:45:37,674 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll (54784 -> 54784 bytes)
+2026-11-08 08:45:37,674 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll
+2026-11-08 08:45:37,679 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll: 265 bytes
+2026-11-08 08:45:37,680 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll (9728 -> 9728 bytes)
+2026-11-08 08:45:37,680 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll
+2026-11-08 08:45:37,681 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll: 262 bytes
+2026-11-08 08:45:37,682 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll (23040 -> 23040 bytes)
+2026-11-08 08:45:37,682 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll
+2026-11-08 08:45:37,684 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll: 261 bytes
+2026-11-08 08:45:37,685 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll (4096 -> 4096 bytes)
+2026-11-08 08:45:37,685 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll
+2026-11-08 08:45:37,686 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll: 254 bytes
+2026-11-08 08:45:37,686 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll (12288 -> 12288 bytes)
+2026-11-08 08:45:37,687 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll
+2026-11-08 08:45:37,688 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll: 200 bytes
+2026-11-08 08:45:37,689 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll (14336 -> 14336 bytes)
+2026-11-08 08:45:37,689 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll
+2026-11-08 08:45:37,691 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll: 261 bytes
+2026-11-08 08:45:37,691 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll (6144 -> 6144 bytes)
+2026-11-08 08:45:37,691 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll
+2026-11-08 08:45:37,692 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll: 254 bytes
+2026-11-08 08:45:37,693 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Netcode.Components.dll (65536 -> 77824 bytes)
+2026-11-08 08:45:37,693 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Netcode.Components.dll
+2026-11-08 08:45:37,710 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Netcode.Components.dll: 23409 bytes
+2026-11-08 08:45:37,711 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll (327680 -> 390144 bytes)
+2026-11-08 08:45:37,712 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll
+2026-11-08 08:45:37,794 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Netcode.Runtime.dll: 104120 bytes
+2026-11-08 08:45:37,797 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Networking.Transport.dll (165888 -> 166400 bytes)
+2026-11-08 08:45:37,798 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Networking.Transport.dll
+2026-11-08 08:45:37,818 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Networking.Transport.dll: 6339 bytes
+2026-11-08 08:45:37,819 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll (18944 -> 18944 bytes)
+2026-11-08 08:45:37,819 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll
+2026-11-08 08:45:37,821 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Csg.dll: 687 bytes
+2026-11-08 08:45:37,822 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll (20992 -> 20992 bytes)
+2026-11-08 08:45:37,822 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll
+2026-11-08 08:45:37,824 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.KdTree.dll: 381 bytes
+2026-11-08 08:45:37,825 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll (39936 -> 39936 bytes)
+2026-11-08 08:45:37,825 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll
+2026-11-08 08:45:37,828 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Poly2Tri.dll: 481 bytes
+2026-11-08 08:45:37,829 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll (13824 -> 13824 bytes)
+2026-11-08 08:45:37,829 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll
+2026-11-08 08:45:37,831 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.Stl.dll: 376 bytes
+2026-11-08 08:45:37,831 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.ProBuilder.dll (404480 -> 404480 bytes)
+2026-11-08 08:45:37,832 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.ProBuilder.dll
+2026-11-08 08:45:37,873 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.ProBuilder.dll: 927 bytes
+2026-11-08 08:45:37,874 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Profiling.Core.dll (10240 -> 10240 bytes)
+2026-11-08 08:45:37,874 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Profiling.Core.dll
+2026-11-08 08:45:37,875 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Profiling.Core.dll: 257 bytes
+2026-11-08 08:45:37,876 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll (527872 -> 532480 bytes)
+2026-11-08 08:45:37,877 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+2026-11-08 08:45:37,986 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll: 110906 bytes
+2026-11-08 08:45:37,990 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll (4608 -> 4608 bytes)
+2026-11-08 08:45:37,991 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+2026-11-08 08:45:37,992 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll: 416 bytes
+2026-11-08 08:45:37,992 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll (6656 -> 7168 bytes)
+2026-11-08 08:45:37,992 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+2026-11-08 08:45:37,994 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll: 1083 bytes
+2026-11-08 08:45:37,994 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll (4816896 -> 4825088 bytes)
+2026-11-08 08:45:37,999 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll
+2026-11-08 08:45:39,126 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll: 266810 bytes
+2026-11-08 08:45:39,133 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll (4608 -> 4608 bytes)
+2026-11-08 08:45:39,134 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+2026-11-08 08:45:39,136 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll: 383 bytes
+2026-11-08 08:45:39,136 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Authentication.dll (115200 -> 115200 bytes)
+2026-11-08 08:45:39,137 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Authentication.dll
+2026-11-08 08:45:39,148 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Authentication.dll: 631 bytes
+2026-11-08 08:45:39,149 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll (5632 -> 5632 bytes)
+2026-11-08 08:45:39,149 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll
+2026-11-08 08:45:39,150 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Analytics.dll: 394 bytes
+2026-11-08 08:45:39,151 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.Services.Core.Components.dll (10752 bytes)
+2026-11-08 08:45:39,151 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll (14336 -> 14336 bytes)
+2026-11-08 08:45:39,152 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll
+2026-11-08 08:45:39,153 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Configuration.dll: 414 bytes
+2026-11-08 08:45:39,154 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Device.dll (6656 -> 6656 bytes)
+2026-11-08 08:45:39,154 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Device.dll
+2026-11-08 08:45:39,155 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Device.dll: 401 bytes
+2026-11-08 08:45:39,155 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll (5120 -> 5120 bytes)
+2026-11-08 08:45:39,156 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll
+2026-11-08 08:45:39,157 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Environments.Internal.dll: 565 bytes
+2026-11-08 08:45:39,157 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll (5632 -> 5632 bytes)
+2026-11-08 08:45:39,158 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll
+2026-11-08 08:45:39,158 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Environments.dll: 324 bytes
+2026-11-08 08:45:39,159 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll (68608 -> 74240 bytes)
+2026-11-08 08:45:39,159 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll
+2026-11-08 08:45:39,173 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Internal.dll: 16125 bytes
+2026-11-08 08:45:39,174 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll (8192 -> 8192 bytes)
+2026-11-08 08:45:39,174 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll
+2026-11-08 08:45:39,175 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Networking.dll: 396 bytes
+2026-11-08 08:45:39,175 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll (18944 -> 18432 bytes)
+2026-11-08 08:45:39,176 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll
+2026-11-08 08:45:39,179 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Registration.dll: 3892 bytes
+2026-11-08 08:45:39,180 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll (12800 -> 12800 bytes)
+2026-11-08 08:45:39,180 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll
+2026-11-08 08:45:39,182 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Scheduler.dll: 455 bytes
+2026-11-08 08:45:39,182 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll (36352 -> 8704 bytes)
+2026-11-08 08:45:39,182 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll
+2026-11-08 08:45:39,186 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Telemetry.dll: 2055 bytes
+2026-11-08 08:45:39,187 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll (7168 -> 7168 bytes)
+2026-11-08 08:45:39,188 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll
+2026-11-08 08:45:39,189 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.Threading.dll: 324 bytes
+2026-11-08 08:45:39,189 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Core.dll (13824 -> 16384 bytes)
+2026-11-08 08:45:39,189 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Core.dll
+2026-11-08 08:45:39,193 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Core.dll: 4361 bytes
+2026-11-08 08:45:39,193 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.QoS.dll (95744 -> 137216 bytes)
+2026-11-08 08:45:39,193 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.QoS.dll
+2026-11-08 08:45:39,217 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.QoS.dll: 35004 bytes
+2026-11-08 08:45:39,219 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Services.Relay.dll (87552 -> 87552 bytes)
+2026-11-08 08:45:39,219 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Services.Relay.dll
+2026-11-08 08:45:39,226 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Services.Relay.dll: 256 bytes
+2026-11-08 08:45:39,227 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.TextMeshPro.dll (380416 -> 380416 bytes)
+2026-11-08 08:45:39,227 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.TextMeshPro.dll
+2026-11-08 08:45:39,269 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.TextMeshPro.dll: 926 bytes
+2026-11-08 08:45:39,269 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.Timeline.dll (127488 -> 127488 bytes)
+2026-11-08 08:45:39,270 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.Timeline.dll
+2026-11-08 08:45:39,284 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.Timeline.dll: 2839 bytes
+2026-11-08 08:45:39,285 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll (101888 -> 101888 bytes)
+2026-11-08 08:45:39,285 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll
+2026-11-08 08:45:39,302 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/Unity.VisualEffectGraph.Runtime.dll: 14920 bytes
+2026-11-08 08:45:39,303 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.CoreUtils.dll (89088 bytes)
+2026-11-08 08:45:39,305 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.Management.dll (17408 bytes)
+2026-11-08 08:45:39,306 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll (7680 bytes)
+2026-11-08 08:45:39,307 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll (5632 bytes)
+2026-11-08 08:45:39,308 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll (10240 bytes)
+2026-11-08 08:45:39,309 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll (5120 bytes)
+2026-11-08 08:45:39,310 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll (6144 bytes)
+2026-11-08 08:45:39,311 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/Unity.XR.OpenXR.dll (175104 bytes)
+2026-11-08 08:45:39,315 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AIModule.dll (57880 -> 58800 bytes)
+2026-11-08 08:45:39,315 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AIModule.dll
+2026-11-08 08:45:39,323 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AIModule.dll: 8094 bytes
+2026-11-08 08:45:39,324 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ARModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:45:39,325 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ARModule.dll
+2026-11-08 08:45:39,329 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ARModule.dll: 6746 bytes
+2026-11-08 08:45:39,329 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll (23576 -> 23984 bytes)
+2026-11-08 08:45:39,330 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll
+2026-11-08 08:45:39,333 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AccessibilityModule.dll: 6642 bytes
+2026-11-08 08:45:39,334 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll (93720 -> 95144 bytes)
+2026-11-08 08:45:39,334 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll
+2026-11-08 08:45:39,351 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AndroidJNIModule.dll: 15973 bytes
+2026-11-08 08:45:39,352 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll (163864 -> 164272 bytes)
+2026-11-08 08:45:39,352 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll
+2026-11-08 08:45:39,370 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AnimationModule.dll: 7347 bytes
+2026-11-08 08:45:39,371 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll (32792 -> 33200 bytes)
+2026-11-08 08:45:39,371 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll
+2026-11-08 08:45:39,376 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AssetBundleModule.dll: 6701 bytes
+2026-11-08 08:45:39,377 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.AudioModule.dll (70680 -> 71600 bytes)
+2026-11-08 08:45:39,377 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.AudioModule.dll
+2026-11-08 08:45:39,390 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.AudioModule.dll: 14628 bytes
+2026-11-08 08:45:39,391 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClothModule.dll (26136 -> 26536 bytes)
+2026-11-08 08:45:39,392 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClothModule.dll
+2026-11-08 08:45:39,396 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClothModule.dll: 6628 bytes
+2026-11-08 08:45:39,397 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll (21528 -> 21928 bytes)
+2026-11-08 08:45:39,397 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll
+2026-11-08 08:45:39,401 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClusterInputModule.dll: 6710 bytes
+2026-11-08 08:45:39,402 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll (22040 -> 22448 bytes)
+2026-11-08 08:45:39,402 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll
+2026-11-08 08:45:39,406 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ClusterRendererModule.dll: 6605 bytes
+2026-11-08 08:45:39,407 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll (26648 -> 27568 bytes)
+2026-11-08 08:45:39,407 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll
+2026-11-08 08:45:39,412 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ContentLoadModule.dll: 8503 bytes
+2026-11-08 08:45:39,413 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.CoreModule.dll (1375256 -> 1393584 bytes)
+2026-11-08 08:45:39,415 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.CoreModule.dll
+2026-11-08 08:45:39,763 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.CoreModule.dll: 287212 bytes
+2026-11-08 08:45:39,772 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:45:39,772 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll
+2026-11-08 08:45:39,776 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.CrashReportingModule.dll: 6714 bytes
+2026-11-08 08:45:39,777 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll (29208 -> 29616 bytes)
+2026-11-08 08:45:39,778 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll
+2026-11-08 08:45:39,782 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.DSPGraphModule.dll: 6596 bytes
+2026-11-08 08:45:39,783 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll (24600 -> 25000 bytes)
+2026-11-08 08:45:39,783 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll
+2026-11-08 08:45:39,787 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.DirectorModule.dll: 6707 bytes
+2026-11-08 08:45:39,788 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GIModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:39,788 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GIModule.dll
+2026-11-08 08:45:39,792 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GIModule.dll: 6624 bytes
+2026-11-08 08:45:39,793 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll (39960 -> 40360 bytes)
+2026-11-08 08:45:39,793 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll
+2026-11-08 08:45:39,799 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GameCenterModule.dll: 6549 bytes
+2026-11-08 08:45:39,799 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.GridModule.dll (25112 -> 25520 bytes)
+2026-11-08 08:45:39,800 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.GridModule.dll
+2026-11-08 08:45:39,804 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.GridModule.dll: 6625 bytes
+2026-11-08 08:45:39,805 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:39,805 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll
+2026-11-08 08:45:39,809 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.HotReloadModule.dll: 6597 bytes
+2026-11-08 08:45:39,809 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll (189464 -> 191400 bytes)
+2026-11-08 08:45:39,810 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll
+2026-11-08 08:45:39,843 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.IMGUIModule.dll: 30965 bytes
+2026-11-08 08:45:39,844 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll (24088 -> 24496 bytes)
+2026-11-08 08:45:39,845 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll
+2026-11-08 08:45:39,849 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ImageConversionModule.dll: 6596 bytes
+2026-11-08 08:45:39,850 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll (38936 -> 39336 bytes)
+2026-11-08 08:45:39,850 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll
+2026-11-08 08:45:39,855 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.InputLegacyModule.dll: 6547 bytes
+2026-11-08 08:45:39,856 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.InputModule.dll (23576 -> 23976 bytes)
+2026-11-08 08:45:39,856 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.InputModule.dll
+2026-11-08 08:45:39,860 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.InputModule.dll: 6745 bytes
+2026-11-08 08:45:39,861 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll (22040 -> 22440 bytes)
+2026-11-08 08:45:39,861 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll
+2026-11-08 08:45:39,865 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.JSONSerializeModule.dll: 6721 bytes
+2026-11-08 08:45:39,866 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:45:39,866 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll
+2026-11-08 08:45:39,870 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.LocalizationModule.dll: 6748 bytes
+2026-11-08 08:45:39,871 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll (33816 -> 34216 bytes)
+2026-11-08 08:45:39,871 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll
+2026-11-08 08:45:39,876 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.NVIDIAModule.dll: 6625 bytes
+2026-11-08 08:45:39,877 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll (156184 -> 161712 bytes)
+2026-11-08 08:45:39,877 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll
+2026-11-08 08:45:39,904 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ParticleSystemModule.dll: 20283 bytes
+2026-11-08 08:45:39,905 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll (20504 -> 20912 bytes)
+2026-11-08 08:45:39,906 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+2026-11-08 08:45:39,910 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PerformanceReportingModule.dll: 6588 bytes
+2026-11-08 08:45:39,910 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll (141336 -> 141736 bytes)
+2026-11-08 08:45:39,911 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll
+2026-11-08 08:45:39,927 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.Physics2DModule.dll: 7296 bytes
+2026-11-08 08:45:39,927 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll (138264 -> 138672 bytes)
+2026-11-08 08:45:39,928 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll
+2026-11-08 08:45:39,942 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PhysicsModule.dll: 7160 bytes
+2026-11-08 08:45:39,943 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:39,944 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll
+2026-11-08 08:45:39,948 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ProfilerModule.dll: 6618 bytes
+2026-11-08 08:45:39,949 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll (151576 -> 155568 bytes)
+2026-11-08 08:45:39,949 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll
+2026-11-08 08:45:39,972 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.PropertiesModule.dll: 14882 bytes
+2026-11-08 08:45:39,973 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:39,973 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+2026-11-08 08:45:39,977 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll: 6640 bytes
+2026-11-08 08:45:39,978 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll (21016 -> 21416 bytes)
+2026-11-08 08:45:39,978 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+2026-11-08 08:45:39,983 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.ScreenCaptureModule.dll: 6572 bytes
+2026-11-08 08:45:39,983 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll (32792 -> 33192 bytes)
+2026-11-08 08:45:39,984 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll
+2026-11-08 08:45:39,989 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SharedInternalsModule.dll: 7092 bytes
+2026-11-08 08:45:39,990 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/UnityEngine.SpatialTracking.dll (11776 bytes)
+2026-11-08 08:45:39,990 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll (21528 -> 22440 bytes)
+2026-11-08 08:45:39,991 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll
+2026-11-08 08:45:39,995 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SpriteMaskModule.dll: 7666 bytes
+2026-11-08 08:45:39,996 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll (26136 -> 26544 bytes)
+2026-11-08 08:45:39,996 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll
+2026-11-08 08:45:40,000 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SpriteShapeModule.dll: 6566 bytes
+2026-11-08 08:45:40,001 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll (20504 -> 20904 bytes)
+2026-11-08 08:45:40,001 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll
+2026-11-08 08:45:40,005 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.StreamingModule.dll: 6583 bytes
+2026-11-08 08:45:40,006 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll (24600 -> 25000 bytes)
+2026-11-08 08:45:40,006 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll
+2026-11-08 08:45:40,010 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SubstanceModule.dll: 6541 bytes
+2026-11-08 08:45:40,011 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll (34840 -> 35248 bytes)
+2026-11-08 08:45:40,011 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll
+2026-11-08 08:45:40,017 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.SubsystemsModule.dll: 6748 bytes
+2026-11-08 08:45:40,017 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TLSModule.dll (26648 -> 27056 bytes)
+2026-11-08 08:45:40,018 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TLSModule.dll
+2026-11-08 08:45:40,022 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TLSModule.dll: 6779 bytes
+2026-11-08 08:45:40,023 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll (100888 -> 101288 bytes)
+2026-11-08 08:45:40,023 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll
+2026-11-08 08:45:40,038 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TerrainModule.dll: 11096 bytes
+2026-11-08 08:45:40,039 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:45:40,040 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+2026-11-08 08:45:40,043 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TerrainPhysicsModule.dll: 6621 bytes
+2026-11-08 08:45:40,044 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll (72216 -> 72616 bytes)
+2026-11-08 08:45:40,045 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+2026-11-08 08:45:40,053 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll: 6935 bytes
+2026-11-08 08:45:40,054 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll (250392 -> 249264 bytes)
+2026-11-08 08:45:40,055 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+2026-11-08 08:45:40,094 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll: 19170 bytes
+2026-11-08 08:45:40,095 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll (38936 -> 39336 bytes)
+2026-11-08 08:45:40,096 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll
+2026-11-08 08:45:40,101 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TextRenderingModule.dll: 6700 bytes
+2026-11-08 08:45:40,102 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll (46616 -> 47016 bytes)
+2026-11-08 08:45:40,102 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll
+2026-11-08 08:45:40,108 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.TilemapModule.dll: 6547 bytes
+2026-11-08 08:45:40,109 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UI.dll (264704 -> 264704 bytes)
+2026-11-08 08:45:40,110 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UI.dll
+2026-11-08 08:45:40,149 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UI.dll: 19427 bytes
+2026-11-08 08:45:40,150 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll (1516056 -> 1536424 bytes)
+2026-11-08 08:45:40,152 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll
+2026-11-08 08:45:40,573 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UIElementsModule.dll: 325475 bytes
+2026-11-08 08:45:40,582 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UIModule.dll (36376 -> 36776 bytes)
+2026-11-08 08:45:40,583 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UIModule.dll
+2026-11-08 08:45:40,588 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UIModule.dll: 6730 bytes
+2026-11-08 08:45:40,589 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:40,590 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll
+2026-11-08 08:45:40,593 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UmbraModule.dll: 6654 bytes
+2026-11-08 08:45:40,594 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:45:40,594 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+2026-11-08 08:45:40,598 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll: 6568 bytes
+2026-11-08 08:45:40,599 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll (44568 -> 44968 bytes)
+2026-11-08 08:45:40,599 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+2026-11-08 08:45:40,605 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityAnalyticsModule.dll: 6569 bytes
+2026-11-08 08:45:40,606 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll (21528 -> 22440 bytes)
+2026-11-08 08:45:40,607 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll
+2026-11-08 08:45:40,611 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityConnectModule.dll: 6733 bytes
+2026-11-08 08:45:40,611 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll (21528 -> 21936 bytes)
+2026-11-08 08:45:40,612 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll
+2026-11-08 08:45:40,615 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityCurlModule.dll: 6631 bytes
+2026-11-08 08:45:40,616 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll (19992 -> 20392 bytes)
+2026-11-08 08:45:40,617 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+2026-11-08 08:45:40,620 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityTestProtocolModule.dll: 6642 bytes
+2026-11-08 08:45:40,621 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll (23064 -> 23472 bytes)
+2026-11-08 08:45:40,621 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+2026-11-08 08:45:40,626 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll: 6605 bytes
+2026-11-08 08:45:40,627 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll (22552 -> 22952 bytes)
+2026-11-08 08:45:40,627 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+2026-11-08 08:45:40,631 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll: 6677 bytes
+2026-11-08 08:45:40,632 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll (57880 -> 58792 bytes)
+2026-11-08 08:45:40,632 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+2026-11-08 08:45:40,641 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestModule.dll: 8064 bytes
+2026-11-08 08:45:40,642 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll (21528 -> 21936 bytes)
+2026-11-08 08:45:40,643 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+2026-11-08 08:45:40,647 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll: 6615 bytes
+2026-11-08 08:45:40,648 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll (31256 -> 31656 bytes)
+2026-11-08 08:45:40,648 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+2026-11-08 08:45:40,653 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll: 6712 bytes
+2026-11-08 08:45:40,653 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VFXModule.dll (58392 -> 58792 bytes)
+2026-11-08 08:45:40,654 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VFXModule.dll
+2026-11-08 08:45:40,662 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VFXModule.dll: 7272 bytes
+2026-11-08 08:45:40,663 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VRModule.dll (26136 -> 27048 bytes)
+2026-11-08 08:45:40,664 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VRModule.dll
+2026-11-08 08:45:40,668 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VRModule.dll: 7380 bytes
+2026-11-08 08:45:40,669 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll (24088 -> 24488 bytes)
+2026-11-08 08:45:40,669 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll
+2026-11-08 08:45:40,673 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VehiclesModule.dll: 6660 bytes
+2026-11-08 08:45:40,674 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VideoModule.dll (40984 -> 41384 bytes)
+2026-11-08 08:45:40,674 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VideoModule.dll
+2026-11-08 08:45:40,680 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VideoModule.dll: 6614 bytes
+2026-11-08 08:45:40,681 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll (35352 -> 36272 bytes)
+2026-11-08 08:45:40,681 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+2026-11-08 08:45:40,688 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.VirtualTexturingModule.dll: 8788 bytes
+2026-11-08 08:45:40,688 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.WindModule.dll (21016 -> 21424 bytes)
+2026-11-08 08:45:40,689 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.WindModule.dll
+2026-11-08 08:45:40,692 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.WindModule.dll: 6609 bytes
+2026-11-08 08:45:40,693 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll (23552 bytes)
+2026-11-08 08:45:40,694 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.XRModule.dll (70680 -> 71088 bytes)
+2026-11-08 08:45:40,694 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.XRModule.dll
+2026-11-08 08:45:40,705 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.XRModule.dll: 9181 bytes
+2026-11-08 08:45:40,705 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/UnityEngine.dll (125464 -> 126888 bytes)
+2026-11-08 08:45:40,706 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/UnityEngine.dll
+2026-11-08 08:45:40,730 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/UnityEngine.dll: 23254 bytes
+2026-11-08 08:45:40,731 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Managed/com.olegknyazev.softmask.dll (34816 bytes)
+2026-11-08 08:45:40,732 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Managed/mscorlib.dll (4631552 -> 4631552 bytes)
+2026-11-08 08:45:40,736 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Managed/mscorlib.dll
+2026-11-08 08:45:41,501 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Managed/mscorlib.dll: 18541 bytes
+2026-11-08 08:45:41,503 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Plugins/x86_64/UnityOpenXR.dll (831488 bytes)
+2026-11-08 08:45:41,520 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/Plugins/x86_64/openxr_loader.dll (2036224 bytes)
+2026-11-08 08:45:41,551 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Resources/unity default resources (1550440 -> 1564240 bytes)
+2026-11-08 08:45:41,553 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Resources/unity default resources
+2026-11-08 08:45:41,815 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Resources/unity default resources: 15775 bytes
+2026-11-08 08:45:41,817 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/Resources/unity_builtin_extra (431408 -> 620500 bytes)
+2026-11-08 08:45:41,818 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/Resources/unity_builtin_extra
+2026-11-08 08:45:41,963 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/Resources/unity_builtin_extra: 183050 bytes
+2026-11-08 08:45:41,968 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/RuntimeInitializeOnLoads.json (19270 -> 7155 bytes)
+2026-11-08 08:45:41,969 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/RuntimeInitializeOnLoads.json
+2026-11-08 08:45:41,971 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/RuntimeInitializeOnLoads.json: 580 bytes
+2026-11-08 08:45:41,971 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/ScriptingAssemblies.json (4903 -> 5506 bytes)
+2026-11-08 08:45:41,972 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/ScriptingAssemblies.json
+2026-11-08 08:45:41,972 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/ScriptingAssemblies.json: 602 bytes
+2026-11-08 08:45:41,973 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json (1619 -> 1757 bytes)
+2026-11-08 08:45:41,973 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json
+2026-11-08 08:45:41,974 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/StreamingAssets/UnityServicesProjectConfiguration.json: 241 bytes
+2026-11-08 08:45:41,975 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json (334 bytes)
+2026-11-08 08:45:41,975 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/boot.config (164 -> 188 bytes)
+2026-11-08 08:45:41,976 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/boot.config
+2026-11-08 08:45:41,976 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/boot.config: 219 bytes
+2026-11-08 08:45:41,976 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers (216968 -> 232756 bytes)
+2026-11-08 08:45:41,977 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers
+2026-11-08 08:45:42,034 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers: 47113 bytes
+2026-11-08 08:45:42,036 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers.assets (21271052 -> 89083164 bytes)
+2026-11-08 08:45:42,073 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers.assets
+2026-11-08 08:46:43,985 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers.assets: 36236395 bytes
+2026-11-08 08:46:44,860 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/globalgamemanagers.assets.resS (16829376 -> 16669456 bytes)
+2026-11-08 08:46:44,880 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/globalgamemanagers.assets.resS
+2026-11-08 08:46:47,514 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/globalgamemanagers.assets.resS: 5266 bytes
+2026-11-08 08:46:47,515 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level0 (44936 -> 45592 bytes)
+2026-11-08 08:46:47,516 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level0
+2026-11-08 08:46:47,523 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level0: 2547 bytes
+2026-11-08 08:46:47,524 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level1 (13524 -> 13556 bytes)
+2026-11-08 08:46:47,524 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level1
+2026-11-08 08:46:47,526 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level1: 789 bytes
+2026-11-08 08:46:47,527 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level10 (2526520 -> 2551264 bytes)
+2026-11-08 08:46:47,528 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level10
+2026-11-08 08:46:48,310 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level10: 618070 bytes
+2026-11-08 08:46:48,327 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level10.resS (12067008 -> 12139872 bytes)
+2026-11-08 08:46:48,334 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level10.resS
+2026-11-08 08:46:51,426 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level10.resS: 132657 bytes
+2026-11-08 08:46:51,430 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level11 (2000696 -> 2012448 bytes)
+2026-11-08 08:46:51,433 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level11
+2026-11-08 08:46:51,946 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level11: 244261 bytes
+2026-11-08 08:46:51,953 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level11.resS (9890032 -> 9889984 bytes)
+2026-11-08 08:46:51,959 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level11.resS
+2026-11-08 08:46:54,320 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level11.resS: 100732 bytes
+2026-11-08 08:46:54,323 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level12 (1092928 -> 1474336 bytes)
+2026-11-08 08:46:54,325 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level12
+2026-11-08 08:46:54,607 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level12: 325247 bytes
+2026-11-08 08:46:54,615 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level12.resS (6081264 -> 7093680 bytes)
+2026-11-08 08:46:54,619 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level12.resS
+2026-11-08 08:46:56,354 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level12.resS: 828181 bytes
+2026-11-08 08:46:56,375 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level13 (626016 -> 632512 bytes)
+2026-11-08 08:46:56,376 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level13
+2026-11-08 08:46:56,488 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level13: 47610 bytes
+2026-11-08 08:46:56,490 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level13.resS (1389168 -> 1382032 bytes)
+2026-11-08 08:46:56,491 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level13.resS
+2026-11-08 08:46:56,670 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level13.resS: 7294 bytes
+2026-11-08 08:46:56,671 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level14 (1785728 -> 1815128 bytes)
+2026-11-08 08:46:56,673 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level14
+2026-11-08 08:46:57,072 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level14: 277084 bytes
+2026-11-08 08:46:57,080 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level14.resS (7236832 -> 7244896 bytes)
+2026-11-08 08:46:57,084 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level14.resS
+2026-11-08 08:46:58,648 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level14.resS: 52010 bytes
+2026-11-08 08:46:58,650 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level15 (1560192 -> 2442440 bytes)
+2026-11-08 08:46:58,652 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level15
+2026-11-08 08:46:59,361 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level15: 427084 bytes
+2026-11-08 08:46:59,373 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level15.resS (7575872 -> 15749504 bytes)
+2026-11-08 08:46:59,380 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level15.resS
+2026-11-08 08:47:08,651 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level15.resS: 7547016 bytes
+2026-11-08 08:47:08,844 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level16 (684216 -> 724072 bytes)
+2026-11-08 08:47:08,846 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level16
+2026-11-08 08:47:08,978 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level16: 53307 bytes
+2026-11-08 08:47:08,981 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level16.resS (1514240 -> 1514240 bytes)
+2026-11-08 08:47:08,982 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level16.resS
+2026-11-08 08:47:09,169 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level16.resS: 1613 bytes
+2026-11-08 08:47:09,170 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level17 (96512 -> 102448 bytes)
+2026-11-08 08:47:09,170 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level17
+2026-11-08 08:47:09,187 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level17: 6104 bytes
+2026-11-08 08:47:09,188 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/level17.resS (35072 bytes)
+2026-11-08 08:47:09,189 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level18 (93632 -> 99992 bytes)
+2026-11-08 08:47:09,190 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level18
+2026-11-08 08:47:09,205 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level18: 6139 bytes
+2026-11-08 08:47:09,206 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level2 (264808 -> 315576 bytes)
+2026-11-08 08:47:09,207 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level2
+2026-11-08 08:47:09,259 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level2: 20842 bytes
+2026-11-08 08:47:09,260 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level3 (1203532 -> 1350556 bytes)
+2026-11-08 08:47:09,262 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level3
+2026-11-08 08:47:09,542 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level3: 84085 bytes
+2026-11-08 08:47:09,545 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level4 (2438520 -> 2459260 bytes)
+2026-11-08 08:47:09,547 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level4
+2026-11-08 08:47:10,022 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level4: 107960 bytes
+2026-11-08 08:47:10,025 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level4.resS (16415712 -> 16416976 bytes)
+2026-11-08 08:47:10,035 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level4.resS
+2026-11-08 08:47:13,750 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level4.resS: 21561 bytes
+2026-11-08 08:47:13,752 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level5 (1287912 -> 1305424 bytes)
+2026-11-08 08:47:13,754 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level5
+2026-11-08 08:47:14,052 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level5: 301368 bytes
+2026-11-08 08:47:14,060 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level5.resS (5153200 -> 5159024 bytes)
+2026-11-08 08:47:14,063 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level5.resS
+2026-11-08 08:47:14,973 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level5.resS: 19906 bytes
+2026-11-08 08:47:14,974 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level6 (4031000 -> 4253456 bytes)
+2026-11-08 08:47:14,978 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level6
+2026-11-08 08:47:16,233 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level6: 579554 bytes
+2026-11-08 08:47:16,248 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level6.resS (26246192 -> 27734752 bytes)
+2026-11-08 08:47:16,263 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level6.resS
+2026-11-08 08:47:50,655 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level6.resS: 18100235 bytes
+2026-11-08 08:47:51,112 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level7 (827800 -> 831144 bytes)
+2026-11-08 08:47:51,115 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level7
+2026-11-08 08:47:51,302 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level7: 144560 bytes
+2026-11-08 08:47:51,307 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level7.resS (2943488 -> 2870624 bytes)
+2026-11-08 08:47:51,309 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level7.resS
+2026-11-08 08:47:51,748 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level7.resS: 2709 bytes
+2026-11-08 08:47:51,749 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level8 (13580 -> 13612 bytes)
+2026-11-08 08:47:51,750 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level8
+2026-11-08 08:47:51,751 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level8: 797 bytes
+2026-11-08 08:47:51,752 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level9 (5009536 -> 3777544 bytes)
+2026-11-08 08:47:51,755 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level9
+2026-11-08 08:47:53,048 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level9: 499887 bytes
+2026-11-08 08:47:53,061 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/level9.resS (33507776 -> 29715232 bytes)
+2026-11-08 08:47:53,080 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/level9.resS
+2026-11-08 08:48:29,445 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/level9.resS: 16317160 bytes
+2026-11-08 08:48:29,855 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/resources.assets (1307136 -> 1413776 bytes)
+2026-11-08 08:48:29,859 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/resources.assets
+2026-11-08 08:48:30,086 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/resources.assets: 89803 bytes
+2026-11-08 08:48:30,090 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets0.assets (1340728 -> 1349960 bytes)
+2026-11-08 08:48:30,091 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets0.assets
+2026-11-08 08:48:30,271 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets0.assets: 16306 bytes
+2026-11-08 08:48:30,272 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.assets (24154548 -> 41619128 bytes)
+2026-11-08 08:48:30,291 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets1.assets
+2026-11-08 08:48:49,619 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets1.assets: 10077946 bytes
+2026-11-08 08:48:49,858 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.assets.resS (305203920 -> 524036288 bytes)
+2026-11-08 08:48:50,168 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets1.assets.resS
+2026-11-08 08:53:13,171 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets1.assets.resS: 62556339 bytes
+2026-11-08 08:53:14,866 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets1.resource (29199576 -> 33851836 bytes)
+2026-11-08 08:53:14,944 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets1.resource
+2026-11-08 08:53:35,128 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets1.resource: 9920524 bytes
+2026-11-08 08:53:35,378 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets10.assets (3581548 -> 3844336 bytes)
+2026-11-08 08:53:35,383 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets10.assets
+2026-11-08 08:53:36,401 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets10.assets: 349660 bytes
+2026-11-08 08:53:36,411 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets10.assets.resS (38334240 -> 51497904 bytes)
+2026-11-08 08:53:36,440 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets10.assets.resS
+2026-11-08 08:53:50,111 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets10.assets.resS: 226677 bytes
+2026-11-08 08:53:50,119 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets11.assets (3457148 -> 3794136 bytes)
+2026-11-08 08:53:50,124 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets11.assets
+2026-11-08 08:53:50,796 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets11.assets: 127629 bytes
+2026-11-08 08:53:50,800 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets11.assets.resS (1424896 -> 16907776 bytes)
+2026-11-08 08:53:50,805 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets11.assets.resS
+2026-11-08 08:53:55,801 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets11.assets.resS: 703658 bytes
+2026-11-08 08:53:55,820 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets12.assets (931792 -> 1064664 bytes)
+2026-11-08 08:53:55,822 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets12.assets
+2026-11-08 08:53:56,029 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets12.assets: 46216 bytes
+2026-11-08 08:53:56,031 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/sharedassets12.assets.resS (3800928 bytes)
+2026-11-08 08:53:56,059 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets13.assets (4842480 -> 4839704 bytes)
+2026-11-08 08:53:56,062 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets13.assets
+2026-11-08 08:53:57,209 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets13.assets: 19152 bytes
+2026-11-08 08:53:57,211 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.assets (6133860 -> 6377756 bytes)
+2026-11-08 08:53:57,215 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.assets
+2026-11-08 08:53:58,323 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.assets: 87375 bytes
+2026-11-08 08:53:58,326 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.assets.resS (2931488 -> 8769376 bytes)
+2026-11-08 08:53:58,330 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.assets.resS
+2026-11-08 08:54:01,074 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.assets.resS: 81725 bytes
+2026-11-08 08:54:01,077 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets14.resource (390272 -> 437600 bytes)
+2026-11-08 08:54:01,078 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets14.resource
+2026-11-08 08:54:01,177 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets14.resource: 158430 bytes
+2026-11-08 08:54:01,182 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.assets (3155836 -> 5430700 bytes)
+2026-11-08 08:54:01,185 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.assets
+2026-11-08 08:54:02,499 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.assets: 252168 bytes
+2026-11-08 08:54:02,538 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.assets.resS (13425920 -> 34152688 bytes)
+2026-11-08 08:54:02,554 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.assets.resS
+2026-11-08 08:54:13,041 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.assets.resS: 3346772 bytes
+2026-11-08 08:54:13,131 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets15.resource (72960 -> 513664 bytes)
+2026-11-08 08:54:13,133 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets15.resource
+2026-11-08 08:54:13,260 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets15.resource: 437180 bytes
+2026-11-08 08:54:13,272 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets16.assets (4853664 -> 4919736 bytes)
+2026-11-08 08:54:13,276 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets16.assets
+2026-11-08 08:54:14,133 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets16.assets: 20483 bytes
+2026-11-08 08:54:14,135 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets17.assets (322104 -> 322144 bytes)
+2026-11-08 08:54:14,135 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets17.assets
+2026-11-08 08:54:14,178 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets17.assets: 3659 bytes
+2026-11-08 08:54:14,179 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets17.assets.resS (2213392 -> 2213648 bytes)
+2026-11-08 08:54:14,181 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets17.assets.resS
+2026-11-08 08:54:14,532 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets17.assets.resS: 12381 bytes
+2026-11-08 08:54:14,533 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets18.assets (622436 -> 622620 bytes)
+2026-11-08 08:54:14,534 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets18.assets
+2026-11-08 08:54:14,611 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets18.assets: 4035 bytes
+2026-11-08 08:54:14,612 DEBUG deltapatcher.core.patch_format: Adding new file: Lethal Company_Data/sharedassets2.assets (72620 bytes)
+2026-11-08 08:54:14,614 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets2.assets.resS (2728768 -> 2736960 bytes)
+2026-11-08 08:54:14,616 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets2.assets.resS
+2026-11-08 08:54:15,150 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets2.assets.resS: 4394 bytes
+2026-11-08 08:54:15,152 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets3.assets (27954704 -> 37971100 bytes)
+2026-11-08 08:54:15,172 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets3.assets
+2026-11-08 08:54:34,092 DEBUG deltapatcher.core.patch_format: bsdiff4.diff complete for Lethal Company_Data/sharedassets3.assets: 6442464 bytes
+2026-11-08 08:54:34,289 DEBUG deltapatcher.core.patch_format: Diffing: Lethal Company_Data/sharedassets3.assets.resS (205712432 -> 330751040 bytes)
+2026-11-08 08:54:34,451 DEBUG deltapatcher.core.patch_format: Running bsdiff4.diff for Lethal Company_Data/sharedassets3.assets.resS
