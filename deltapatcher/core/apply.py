@@ -24,6 +24,7 @@ import bsdiff4
 from . import patch_format, scan
 
 MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024  # 2 GB limit for in-memory bsdiff ops
+CHUNK_SIZE = patch_format.CHUNK_SIZE  # Must match patch_format
 
 log = logging.getLogger(__name__)
 
@@ -76,7 +77,7 @@ def verify(
         if action == "none":
             if not exists or scan.hash_file(disk_path) != target_hash:
                 mismatches.append(rel)
-        elif action == "modify":
+        elif action in ("modify", "modify_chunked"):
             if not exists:
                 mismatches.append(rel)
                 continue
@@ -101,7 +102,7 @@ def _rollback(disk_root: Path, backup_dir: Path, performed: list[tuple[str, str]
         disk_path = disk_root / rel
         backup_path = backup_dir / rel
         try:
-            if kind in ("delete", "modify"):
+            if kind in ("delete", "modify", "modify_chunked"):
                 if backup_path.is_file():
                     disk_path.parent.mkdir(parents=True, exist_ok=True)
                     _ensure_writable(disk_path)
@@ -119,6 +120,40 @@ def _write_file_streaming(zf: zipfile.ZipFile, arcname: str, dest_path: Path) ->
     dest_path.parent.mkdir(parents=True, exist_ok=True)
     with zf.open(arcname) as src, open(dest_path, "wb") as dst:
         shutil.copyfileobj(src, dst)
+
+
+def _apply_chunked_patch(
+    disk_path: Path,
+    zf: zipfile.ZipFile,
+    rel: str,
+    info: dict,
+    backup_dir: Path,
+) -> None:
+    """Apply chunked diff to a file. Reads source in chunks, applies diffs, writes target."""
+    chunk_size = info["chunk_size"]
+    num_chunks = info["num_chunks"]
+
+    log.debug("Applying chunked patch: %s (%d chunks of %d bytes)", rel, num_chunks, chunk_size)
+
+    # Backup original file
+    backup_path = backup_dir / rel
+    backup_path.parent.mkdir(parents=True, exist_ok=True)
+    _ensure_writable(disk_path)
+    shutil.copy2(disk_path, backup_path)
+
+    # Open source for reading, target for writing
+    with open(backup_path, "rb") as src_f, open(disk_path, "wb") as dst_f:
+        for chunk_idx in range(num_chunks):
+            src_chunk = src_f.read(chunk_size)
+            if not src_chunk:
+                # Source file ended (shouldn't happen if manifest is correct)
+                break
+
+            diff_bytes = patch_format.read_chunk_diff_blob(zf, rel, chunk_idx)
+            tgt_chunk = bsdiff4.patch(src_chunk, diff_bytes)
+            dst_f.write(tgt_chunk)
+
+            log.debug("Applied chunk %d/%d: %d -> %d bytes", chunk_idx + 1, num_chunks, len(src_chunk), len(tgt_chunk))
 
 
 def apply_patch(
@@ -197,6 +232,12 @@ def apply_patch(
                     src_bytes = backup_path.read_bytes()
                     new_bytes = bsdiff4.patch(src_bytes, diff_bytes)
                     disk_path.write_bytes(new_bytes)
+
+                elif action == "modify_chunked":
+                    if disk_path.is_file() and scan.hash_file(disk_path) == info["target_hash"]:
+                        continue
+                    _apply_chunked_patch(disk_path, zf, rel, info, backup_dir)
+                    performed.append((rel, "modify_chunked"))
 
         if progress_callback:
             progress_callback("Patch applied successfully", 1.0, total)
