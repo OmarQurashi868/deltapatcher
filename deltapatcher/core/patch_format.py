@@ -56,10 +56,15 @@ def build_patch_zip(
     """
     source_dir = Path(source_dir)
     target_dir = Path(target_dir)
+    log.info("Scanning source directory: %s", source_dir)
     source_hashes = scan.scan_directory(source_dir)
+    log.info("Scanned %d files from source", len(source_hashes))
+    log.info("Scanning target directory: %s", target_dir)
     target_hashes = scan.scan_directory(target_dir)
+    log.info("Scanned %d files from target", len(target_hashes))
     all_paths = sorted(set(source_hashes) | set(target_hashes))
     total = len(all_paths)
+    log.info("Total unique paths to process: %d", total)
 
     files_manifest: dict[str, dict] = {}
     buffer = io.BytesIO()
@@ -78,6 +83,7 @@ def build_patch_zip(
                     tgt_path = target_dir / rel
                     src_size = src_path.stat().st_size
                     tgt_size = tgt_path.stat().st_size
+                    log.debug("Diffing: %s (%d -> %d bytes)", rel, src_size, tgt_size)
                     if src_size > MAX_FILE_SIZE or tgt_size > MAX_FILE_SIZE:
                         # Too large for bsdiff - fall back to full copy ("add" action)
                         log.warning("File too large for diff, using full copy: %s (%d -> %d bytes)",
@@ -88,19 +94,22 @@ def build_patch_zip(
                         action = "modify"
                         src_bytes = src_path.read_bytes()
                         tgt_bytes = tgt_path.read_bytes()
+                        log.debug("Running bsdiff4.diff for %s", rel)
                         diff_bytes = bsdiff4.diff(src_bytes, tgt_bytes)
+                        log.debug("bsdiff4.diff complete for %s: %d bytes", rel, len(diff_bytes))
                         zf.writestr(DIFF_PREFIX + rel, diff_bytes)
             elif t_hash is not None:
                 action = "add"
                 tgt_path = target_dir / rel
                 tgt_size = tgt_path.stat().st_size
+                log.debug("Adding new file: %s (%d bytes)", rel, tgt_size)
                 if tgt_size > MAX_FILE_SIZE:
-                    # Stream large files instead of loading entirely
                     _read_file_streaming(tgt_path, zf, ADD_PREFIX + rel)
                 else:
                     zf.writestr(ADD_PREFIX + rel, tgt_path.read_bytes())
             else:
                 action = "delete"
+                log.debug("Marking for delete: %s", rel)
 
             files_manifest[rel] = {
                 "action": action,
@@ -113,6 +122,7 @@ def build_patch_zip(
         manifest = {"version": 1, "files": files_manifest}
         zf.writestr(MANIFEST_NAME, json.dumps(manifest, indent=2))
 
+    log.info("Patch zip built successfully: %d bytes", buffer.tell())
     return buffer.getvalue()
 
 

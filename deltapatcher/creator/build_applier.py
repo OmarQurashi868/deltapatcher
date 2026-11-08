@@ -41,7 +41,9 @@ def build_applier_exe(
     with tempfile.TemporaryDirectory(prefix="deltapatcher_build_") as tmp:
         tmp_path = Path(tmp)
         patch_zip_path = tmp_path / "patch.zip"
+        log.debug("Writing patch.zip to temp dir: %s", patch_zip_path)
         patch_zip_path.write_bytes(patch_zip_bytes)
+        log.debug("patch.zip written: %d bytes", patch_zip_path.stat().st_size)
 
         dist_dir = tmp_path / "dist"
         work_dir = tmp_path / "build"
@@ -60,12 +62,20 @@ def build_applier_exe(
             "-y",
         ]
 
-        log.info("Running PyInstaller...")
-        PyInstaller.__main__.run(args)
-        log.info("PyInstaller completed")
+        log.info("Running PyInstaller with args: %s", " ".join(args))
+        try:
+            PyInstaller.__main__.run(args)
+            log.info("PyInstaller completed successfully")
+        except Exception as e:
+            log.exception("PyInstaller failed: %s", e)
+            raise
 
         built_exe = dist_dir / f"{exe_stem}.exe"
+        log.debug("Checking for built exe at: %s", built_exe)
         if not built_exe.is_file():
+            log.error("PyInstaller did not produce expected output: %s", built_exe)
+            log.error("Contents of dist_dir: %s", list(dist_dir.iterdir()) if dist_dir.exists() else "N/A")
             raise RuntimeError(f"PyInstaller did not produce expected output: {built_exe}")
+        log.info("Built exe found: %d bytes", built_exe.stat().st_size)
         shutil.copy2(built_exe, output_exe_path)
         log.info("Built exe copied to %s", output_exe_path)
