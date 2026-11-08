@@ -176,6 +176,7 @@ def apply_patch(
                         raise FileNotFoundError(
                             f"Missing add blob in patch: {patch_format.ADD_PREFIX}{rel}"
                         ) from None
+                    disk_path.parent.mkdir(parents=True, exist_ok=True)
                     if add_size > MAX_FILE_SIZE:
                         _write_file_streaming(zf, patch_format.ADD_PREFIX + rel, disk_path)
                     else:

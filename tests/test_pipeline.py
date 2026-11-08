@@ -124,6 +124,40 @@ class PipelineTests(unittest.TestCase):
         self.assertFalse((self.work / "backup").exists())
         self.assertEqual(_read_tree(disk_dir), before)
 
+    def test_add_creates_missing_parent_dirs(self) -> None:
+        # Create a patch that adds a file in a new nested directory
+        source_dir = self.work / "source2"
+        target_dir = self.work / "target2"
+        source_dir.mkdir()
+        target_dir.mkdir()
+        (source_dir / "existing.txt").write_text("original\n")
+        (target_dir / "existing.txt").write_text("original\n")
+        # Add a new file in a new nested directory
+        (target_dir / "newdir" / "subdir").mkdir(parents=True)
+        (target_dir / "newdir" / "subdir" / "newfile.txt").write_text("new content\n")
+
+        patch_bytes = patch_format.build_patch_zip(source_dir, target_dir)
+        patch_zip_path = self.work / "patch2.zip"
+        patch_zip_path.write_bytes(patch_bytes)
+        with zipfile.ZipFile(patch_zip_path) as zf:
+            manifest = patch_format.read_manifest(zf)
+        files = manifest["files"]
+
+        # Apply to a copy of source (has existing.txt but not newdir/subdir)
+        disk_dir = self.work / "disk_add"
+        shutil.copytree(source_dir, disk_dir)
+
+        self.assertEqual(core_apply.verify(disk_dir, files), [])
+        backup_dir = self.work / "backup_add"
+        core_apply.apply_patch(disk_dir, patch_zip_path, files, backup_dir)
+
+        # Verify the new file was created with correct content
+        new_file = disk_dir / "newdir" / "subdir" / "newfile.txt"
+        self.assertTrue(new_file.is_file())
+        self.assertEqual(new_file.read_text(), "new content\n")
+        # Verify existing file is unchanged
+        self.assertEqual((disk_dir / "existing.txt").read_text(), "original\n")
+
 
 if __name__ == "__main__":
     unittest.main()
