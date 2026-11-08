@@ -52,14 +52,15 @@ def _read_file_streaming(path: Path, zf: zipfile.ZipFile, arcname: str) -> None:
 
 
 def _chunked_diff(src_path: Path, tgt_path: Path, zf: zipfile.ZipFile, rel: str, progress_callback=None) -> int:
-    """Diff large file in chunks, write chunk diffs to ZIP. Returns number of chunks."""
+    """Diff large file in chunks, write chunk diffs to ZIP. Returns number of chunks actually written."""
     src_size = src_path.stat().st_size
     tgt_size = tgt_path.stat().st_size
     num_chunks = max((src_size + CHUNK_SIZE - 1) // CHUNK_SIZE, (tgt_size + CHUNK_SIZE - 1) // CHUNK_SIZE)
 
-    log.info("Chunked diff: %s (%d -> %d bytes) in %d chunks of %d bytes",
+    log.info("Chunked diff: %s (%d -> %d bytes) in up to %d chunks of %d bytes",
              rel, src_size, tgt_size, num_chunks, CHUNK_SIZE)
 
+    chunks_written = 0
     with open(src_path, "rb") as src_f, open(tgt_path, "rb") as tgt_f:
         for chunk_idx in range(num_chunks):
             src_chunk = src_f.read(CHUNK_SIZE)
@@ -68,17 +69,18 @@ def _chunked_diff(src_path: Path, tgt_path: Path, zf: zipfile.ZipFile, rel: str,
             if not src_chunk and not tgt_chunk:
                 break
 
-            log.debug("Diffing chunk %d/%d: %d -> %d bytes", chunk_idx + 1, num_chunks, len(src_chunk), len(tgt_chunk))
+            log.debug("Diffing chunk %d: %d -> %d bytes", chunk_idx + 1, len(src_chunk), len(tgt_chunk))
             diff_bytes = xdelta.diff(src_chunk, tgt_chunk)
             chunk_name = f"{DIFF_PREFIX}{rel}{CHUNK_SUFFIX}{chunk_idx + 1:03d}"
             zf.writestr(chunk_name, diff_bytes)
             log.debug("Chunk %d diff: %d bytes", chunk_idx + 1, len(diff_bytes))
+            chunks_written += 1
 
             if progress_callback:
-                progress_callback(f"{rel} (chunk {chunk_idx + 1}/{num_chunks})",
-                                  (chunk_idx + 1) / num_chunks, num_chunks)
+                progress_callback(f"{rel} (chunk {chunks_written}/{num_chunks})",
+                                  chunks_written / num_chunks if num_chunks > 0 else 1.0, num_chunks)
 
-    return num_chunks
+    return chunks_written
 
 
 def build_patch_zip(

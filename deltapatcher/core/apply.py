@@ -205,11 +205,21 @@ def apply_patch(
                 elif action == "add":
                     if disk_path.is_file() and scan.hash_file(disk_path) == info["target_hash"]:
                         continue
-                    add_size = zf.getinfo(patch_format.ADD_PREFIX + rel).file_size
+                    try:
+                        add_size = zf.getinfo(patch_format.ADD_PREFIX + rel).file_size
+                    except KeyError:
+                        raise FileNotFoundError(
+                            f"Missing add blob in patch: {patch_format.ADD_PREFIX}{rel}"
+                        ) from None
                     if add_size > MAX_FILE_SIZE:
                         _write_file_streaming(zf, patch_format.ADD_PREFIX + rel, disk_path)
                     else:
-                        disk_path.write_bytes(patch_format.read_add_blob(zf, rel))
+                        try:
+                            disk_path.write_bytes(patch_format.read_add_blob(zf, rel))
+                        except KeyError:
+                            raise FileNotFoundError(
+                                f"Missing add blob in patch: {patch_format.ADD_PREFIX}{rel}"
+                            ) from None
                     performed.append((rel, "add"))
 
                 elif action == "modify":
@@ -220,7 +230,12 @@ def apply_patch(
                     _ensure_writable(disk_path)
                     shutil.copy2(disk_path, backup_path)
                     performed.append((rel, "modify"))
-                    diff_bytes = patch_format.read_diff_blob(zf, rel)
+                    try:
+                        diff_bytes = patch_format.read_diff_blob(zf, rel)
+                    except KeyError:
+                        raise FileNotFoundError(
+                            f"Missing diff blob in patch: {patch_format.DIFF_PREFIX}{rel}"
+                        ) from None
                     src_size = backup_path.stat().st_size
                     if src_size > MAX_FILE_SIZE:
                         raise MemoryError(
@@ -234,7 +249,12 @@ def apply_patch(
                 elif action == "modify_chunked":
                     if disk_path.is_file() and scan.hash_file(disk_path) == info["target_hash"]:
                         continue
-                    _apply_chunked_patch(disk_path, zf, rel, info, backup_dir)
+                    try:
+                        _apply_chunked_patch(disk_path, zf, rel, info, backup_dir)
+                    except KeyError as e:
+                        raise FileNotFoundError(
+                            f"Missing chunk diff blob in patch: {e}"
+                        ) from None
                     performed.append((rel, "modify_chunked"))
 
         if progress_callback:
